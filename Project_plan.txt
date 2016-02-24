@@ -1,0 +1,11 @@
+1. Extract the feature from your database - Hard deadline: 25/02/2016 soft: 24/02/2016
+2. Create cross-validated sets - Hard: 26/02/2016 soft: 25/02/2016
+3. Train a SVM using single sequence information - Hard: 29/02/2016 soft: 26/02/2016
+4. Add evolutionary information by running psi-blast and extracting the information - Hard: 03/03/2016 soft: 02/03/2016
+5. Train a SVM using multiple sequence information - Hard: 07/03/2016 soft: 04/03/2016
+6. Optimize the performance of the SVM - Hard: 10/03/2016 soft: 09/03/2016
+7. Analyze the results and compare it to previous work - Hard: 11/03/2016 soft: 10/03/2016
+8. Set up a web-server: Hard: 14/03/2016 soft: 11/03/2016
+9. Review the state of art for your predictor - Hard: 15/03/2016 soft: 14/03/2016
+10. Write a report - Hard: 17/03/2016 soft: 16/03/2016
+
