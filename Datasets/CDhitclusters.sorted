@@ -1,0 +1,164 @@
+>Cluster 0
+0	646aa, >ESTA_PSEAE_observed_topology... at 94.89%
+1	1083aa, >Q8GKS5_NEIME_observed_topology... at 98.25%
+2	1286aa, >AIDA_ECOLX_observed_topology... at 95.18%
+3	1300aa, >ESPP_ECO57_observed_topology... *
+>Cluster 1
+0	815aa, >FPVA_PSEAE_observed_topology... *
+1	238aa, >OPAH_NEIGO_observed_topology... at 92.44%
+>Cluster 2
+0	1300aa, >ESPP_ECO57_sequence... *
+>Cluster 3
+0	1286aa, >AIDA_ECOLX_sequence... *
+>Cluster 4
+0	1083aa, >Q8GKS5_NEIME_sequence... *
+>Cluster 5
+0	985aa, >INVA_YERPS_sequence... *
+>Cluster 6
+0	985aa, >INVA_YERPS_observed_topology... *
+>Cluster 7
+0	915aa, >TBP1_NEIMB_sequence... *
+>Cluster 8
+0	915aa, >TBP1_NEIMB_observed_topology... *
+>Cluster 9
+0	899aa, >Q79AD2_SERMA_sequence... *
+>Cluster 10
+0	899aa, >Q79AD2_SERMA_observed_topology... *
+>Cluster 11
+0	878aa, >FIMD_ECOLI_sequence... *
+>Cluster 12
+0	878aa, >FIMD_ECOLI_observed_topology... *
+>Cluster 13
+0	815aa, >FPVA_PSEAE_sequence... *
+>Cluster 14
+0	792aa, >Q5F5W8_NEIG1_sequence... *
+>Cluster 15
+0	792aa, >Q5F5W8_NEIG1_observed_topology... *
+>Cluster 16
+0	784aa, >LPTD_SHIFL_sequence... *
+>Cluster 17
+0	784aa, >LPTD_SHIFL_observed_topology... *
+>Cluster 18
+0	774aa, >FECA_ECOLI_sequence... *
+>Cluster 19
+0	774aa, >FECA_ECOLI_observed_topology... *
+>Cluster 20
+0	746aa, >FEPA_ECOLI_sequence... *
+>Cluster 21
+0	746aa, >FEPA_ECOLI_observed_topology... *
+>Cluster 22
+0	720aa, >Q51162_NEIME_sequence... *
+>Cluster 23
+0	720aa, >Q51162_NEIME_observed_topology... *
+>Cluster 24
+0	646aa, >ESTA_PSEAE_sequence... *
+>Cluster 25
+0	584aa, >FHAC_BORPE_sequence... *
+>Cluster 26
+0	584aa, >FHAC_BORPE_observed_topology... *
+>Cluster 27
+0	577aa, >TAMA_ECOLI_sequence... *
+>Cluster 28
+0	577aa, >TAMA_ECOLI_observed_topology... *
+>Cluster 29
+0	490aa, >ALGE_PSEAE_sequence... *
+>Cluster 30
+0	490aa, >ALGE_PSEAE_observed_topology... *
+>Cluster 31
+0	484aa, >Q9HVS0_PSEAE_sequence... *
+>Cluster 32
+0	484aa, >Q9HVS0_PSEAE_observed_topology... *
+>Cluster 33
+0	479aa, >Q8GNN6_ECOLX_sequence... *
+>Cluster 34
+0	479aa, >Q8GNN6_ECOLX_observed_topology... *
+>Cluster 35
+0	463aa, >Q9HVJ6_PSEAE_sequence... *
+>Cluster 36
+0	463aa, >Q9HVJ6_PSEAE_observed_topology... *
+>Cluster 37
+0	452aa, >LAMB_SALTY_sequence... *
+>Cluster 38
+0	452aa, >LAMB_SALTY_observed_topology... *
+>Cluster 39
+0	447aa, >A5VZA8_PSEP1_sequence... *
+>Cluster 40
+0	447aa, >A5VZA8_PSEP1_observed_topology... *
+>Cluster 41
+0	440aa, >PORP_PSEAE_sequence... *
+>Cluster 42
+0	440aa, >PORP_PSEAE_observed_topology... *
+>Cluster 43
+0	362aa, >OMPF_ECOLI_sequence... *
+>Cluster 44
+0	362aa, >OMPF_ECOLI_observed_topology... *
+>Cluster 45
+0	355aa, >M4GGR4_NEIME_sequence... *
+>Cluster 46
+0	355aa, >M4GGR4_NEIME_observed_topology... *
+>Cluster 47
+0	344aa, >OMPA_KLEPN_sequence... *
+>Cluster 48
+0	344aa, >OMPA_KLEPN_observed_topology... *
+>Cluster 49
+0	319aa, >Q8ZPT3_SALTY_sequence... *
+>Cluster 50
+0	319aa, >Q8ZPT3_SALTY_observed_topology... *
+>Cluster 51
+0	312aa, >COLY_YERPE_sequence... *
+>Cluster 52
+0	312aa, >COLY_YERPE_observed_topology... *
+>Cluster 53
+0	301aa, >OMPG_ECOLI_sequence... *
+>Cluster 54
+0	301aa, >OMPG_ECOLI_observed_topology... *
+>Cluster 55
+0	296aa, >VDAC1_MOUSE_sequence... *
+>Cluster 56
+0	296aa, >VDAC1_MOUSE_observed_topology... *
+>Cluster 57
+0	294aa, >TSX_ECOLI_sequence... *
+>Cluster 58
+0	294aa, >TSX_ECOLI_observed_topology... *
+>Cluster 59
+0	289aa, >PA1_ECOLI_sequence... *
+>Cluster 60
+0	289aa, >PA1_ECOLI_observed_topology... *
+>Cluster 61
+0	289aa, >PORI_RHOBL_sequence... *
+>Cluster 62
+0	289aa, >PORI_RHOBL_observed_topology... *
+>Cluster 63
+0	272aa, >Q51227_NEIME_sequence... *
+>Cluster 64
+0	272aa, >Q51227_NEIME_observed_topology... *
+>Cluster 65
+0	246aa, >F0QP73_ACIBD_sequence... *
+>Cluster 66
+0	246aa, >F0QP73_ACIBD_observed_topology... *
+>Cluster 67
+0	238aa, >OPAH_NEIGO_sequence... *
+>Cluster 68
+0	232aa, >Q9HWW1_PSEAE_sequence... *
+>Cluster 69
+0	232aa, >Q9HWW1_PSEAE_observed_topology... *
+>Cluster 70
+0	224aa, >Q72JD8_THET2_sequence... *
+>Cluster 71
+0	224aa, >Q72JD8_THET2_observed_topology... *
+>Cluster 72
+0	200aa, >Q51486_PSEAI_sequence... *
+>Cluster 73
+0	200aa, >Q51486_PSEAI_observed_topology... *
+>Cluster 74
+0	194aa, >Q8D0Z7_YERPE_sequence... *
+>Cluster 75
+0	194aa, >Q8D0Z7_YERPE_observed_topology... *
+>Cluster 76
+0	186aa, >PAGP_ECOLI_sequence... *
+>Cluster 77
+0	186aa, >PAGP_ECOLI_observed_topology... *
+>Cluster 78
+0	173aa, >PAGL_PSEAE_sequence... *
+>Cluster 79
+0	173aa, >PAGL_PSEAE_observed_topology... *
