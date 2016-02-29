@@ -1,0 +1,229 @@
+PSIBLAST 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           23,866 sequences; 7,604,542 total letters
+
+Results from round 1
+
+
+Query= Q9HVS0_PSEAE_sequence
+
+Length=484
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_003253422.1|  MULTISPECIES: porin                                226   6e-68
+
+
+>ref|WP_003253422.1| MULTISPECIES: porin [Pseudomonas]
+ ref|NP_742216.1| porin [Pseudomonas putida KT2440]
+ gb|AAN65680.1|AE016195_1 porin, putative [Pseudomonas putida KT2440]
+ gb|ABQ76235.1| outer membrane porin [Pseudomonas putida F1]
+ gb|ABY95976.1| outer membrane porin [Pseudomonas putida GB-1]
+ gb|ACA70569.1| outer membrane porin [Pseudomonas putida W619]
+ gb|AFK69361.1| porin [Pseudomonas putida ND6]
+ gb|AFO50524.1| porin, putative [Pseudomonas putida DOT-T1E]
+ gb|AGA71027.1| outer membrane porin [Pseudomonas putida HB3267]
+ gb|EMR46191.1| outer membrane porin [Pseudomonas putida LS46]
+ dbj|BAN51890.1| putative tyrosine-specific porin OpdT [Pseudomonas putida NBRC 
+14164]
+ gb|EPL10374.1| outer membrane porin [Pseudomonas sp. CF150]
+ gb|ERT15415.1| porin [Pseudomonas putida SJ3]
+ gb|AGZ32869.1| porin [Pseudomonas sp. VLB120]
+ gb|ESW36559.1| porin [Pseudomonas taiwanensis SJ9]
+ gb|AHC32601.1| porin [Pseudomonas sp. TKP]
+ gb|AHC85328.1| porin [Pseudomonas monteilii SB3078]
+ gb|AHC90696.1| porin [Pseudomonas monteilii SB3101]
+ gb|AIN61175.1| porin [Pseudomonas mosselii SJ10]
+ gb|AJA13499.1| porin [Pseudomonas putida S12]
+ gb|KIC81015.1| porin [Pseudomonas sp. C5pp]
+ gb|AJG16643.1| porin [Pseudomonas plecoglossicida]
+ gb|KIY41639.1| porin [Pseudomonas sp. 10-1B]
+ gb|KMM82270.1| porin [Pseudomonas lundensis]
+ gb|KMU93010.1| porin [Pseudomonas putida]
+ gb|KMY38507.1| porin [Pseudomonas putida]
+ gb|KPM60908.1| porin [Pseudomonas putida]
+ gb|KPM66207.1| porin [Pseudomonas putida]
+ gb|KRP79473.1| porin [Pseudomonas sp. DSM 29167]
+ gb|KWW18558.1| porin [Stenotrophomonas rhizophila]
+Length=447
+
+ Score =   226 bits (577),  Expect = 6e-68, Method: Compositional matrix adjust.
+ Identities = 155/457 (34%), Positives = 244/457 (53%), Gaps = 25/457 (5%)
+
+Query  38   PSYAAEVQSIP-SVAKPIKGQAGATGLVEGQSLTLTTRNFYSRENMKDSFTFRIPKAGGG  96
+            P Y A V ++  S A   + +    G +EG SLT+  RNFY   + +DS T     +G G
+Sbjct  6    PLYLAAVSALSGSYAISAQAEDKPEGFIEGSSLTVLNRNFYFNRDNRDS-TAPTYNSGKG  64
+
+Query  97   SQRIHQRNAWVQGTVLKYSSGYTQGTVGFGFDVAAFNEIALERGKGRIGGGGNRTLANSD  156
+            +   +   AW    + K++SG+TQGTVGFG D  A   + L+ G GR GG  +  +   D
+Sbjct  65   NTNGYSE-AWAHAIISKFNSGFTQGTVGFGVDAFAMIGLKLDTGDGRNGGRSSFDVLPVD  123
+
+Query  157  --GEALGEWSKLGVANIRLRASNTEFKAGRFLVNTPVFSYIDNRALPSSFTGFAVTSEEL  214
+              GEA  E++K+G A  ++R  +T  K G    +TPV +  D+R LP SF G  V +  +
+Sbjct  124  NKGEARDEYTKVGGA-AKVRLFDTIVKVGDVFPSTPVVASGDSRLLPESFRGVTVENTSI  182
+
+Query  215  DNLSLQAGSFRKVS-PRTGSGDEDMTTEYGTRQVKGDRLNYLGGNYKPLDGLEISLYGSH  273
+              L+LQ G    +S P + + +++  T YG   V    + Y GG+Y   D   +S+Y S 
+Sbjct  183  QGLTLQGGRLHAMSQPVSSNLNDNFVTFYGG-PVNSPWIGYGGGDYSINDNWTVSVYASQ  241
+
+Query  274  FQDVWNQYYLGVTHDIGDLENGIALRTAFNGYHTGDTGAREAGYIDNDTWSLAFTLGHRA  333
+             +DVWNQYY G T  +  L + +AL   FN Y   D G +  G  DN+ WS    + + A
+Sbjct  242  LKDVWNQYYAG-TSVVYPLSDDLALIGGFNYYKAVDEGKKRLGEFDNNIWSAKVGVRYGA  300
+
+Query  334  HALTLAYQQVDGNEYFDYVHETSAIFLANSM-LADYNSPNEKSAQIRYETDWSYYGVPGL  392
+            H L L++Q+ +G++ FDY+ ++ +IF+ NS+  +D+NSP E+S  +RY+ +++ YG+PGL
+Sbjct  301  HTLALSHQRNNGDDDFDYLRQSDSIFVDNSIQYSDFNSPKERSWMLRYDLNFTSYGIPGL  360
+
+Query  393  STGVWYVKGWDIDGTHYD-----GDRNGAYGNYAEVRAQDGEKHHELGLMAAYKVQNGPI  447
+            +    Y +G   D ++ +      D NG           D +K  E  +   Y VQ GP 
+Sbjct  361  TFMTRYARGSGADYSNANQFYMRTDDNG--------NPLDNQKRWERDVEVKYVVQTGPA  412
+
+Query  448  KDSTFKLTYMMHKASQNQIDGSVNELRLVSTFPFNLL  484
+            KD +F+L     +A+  + D  ++E R++  +P ++L
+Sbjct  413  KDLSFRLRQATTRATAFESD--LDETRVIIEYPLSIL  447
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2018096080
+Results from round 2
+
+
+Query= Q9HVS0_PSEAE_sequence
+
+Length=484
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_003253422.1|  MULTISPECIES: porin                                648   0.0  
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>ref|WP_003253422.1| MULTISPECIES: porin [Pseudomonas]
+ ref|NP_742216.1| porin [Pseudomonas putida KT2440]
+ gb|AAN65680.1|AE016195_1 porin, putative [Pseudomonas putida KT2440]
+ gb|ABQ76235.1| outer membrane porin [Pseudomonas putida F1]
+ gb|ABY95976.1| outer membrane porin [Pseudomonas putida GB-1]
+ gb|ACA70569.1| outer membrane porin [Pseudomonas putida W619]
+ gb|AFK69361.1| porin [Pseudomonas putida ND6]
+ gb|AFO50524.1| porin, putative [Pseudomonas putida DOT-T1E]
+ gb|AGA71027.1| outer membrane porin [Pseudomonas putida HB3267]
+ gb|EMR46191.1| outer membrane porin [Pseudomonas putida LS46]
+ dbj|BAN51890.1| putative tyrosine-specific porin OpdT [Pseudomonas putida NBRC 
+14164]
+ gb|EPL10374.1| outer membrane porin [Pseudomonas sp. CF150]
+ gb|ERT15415.1| porin [Pseudomonas putida SJ3]
+ gb|AGZ32869.1| porin [Pseudomonas sp. VLB120]
+ gb|ESW36559.1| porin [Pseudomonas taiwanensis SJ9]
+ gb|AHC32601.1| porin [Pseudomonas sp. TKP]
+ gb|AHC85328.1| porin [Pseudomonas monteilii SB3078]
+ gb|AHC90696.1| porin [Pseudomonas monteilii SB3101]
+ gb|AIN61175.1| porin [Pseudomonas mosselii SJ10]
+ gb|AJA13499.1| porin [Pseudomonas putida S12]
+ gb|KIC81015.1| porin [Pseudomonas sp. C5pp]
+ gb|AJG16643.1| porin [Pseudomonas plecoglossicida]
+ gb|KIY41639.1| porin [Pseudomonas sp. 10-1B]
+ gb|KMM82270.1| porin [Pseudomonas lundensis]
+ gb|KMU93010.1| porin [Pseudomonas putida]
+ gb|KMY38507.1| porin [Pseudomonas putida]
+ gb|KPM60908.1| porin [Pseudomonas putida]
+ gb|KPM66207.1| porin [Pseudomonas putida]
+ gb|KRP79473.1| porin [Pseudomonas sp. DSM 29167]
+ gb|KWW18558.1| porin [Stenotrophomonas rhizophila]
+Length=447
+
+ Score =   648 bits (1671),  Expect = 0.0, Method: Composition-based stats.
+ Identities = 155/457 (34%), Positives = 244/457 (53%), Gaps = 25/457 (5%)
+
+Query  38   PSYAAEVQSIP-SVAKPIKGQAGATGLVEGQSLTLTTRNFYSRENMKDSFTFRIPKAGGG  96
+            P Y A V ++  S A   + +    G +EG SLT+  RNFY   + +DS T     +G G
+Sbjct  6    PLYLAAVSALSGSYAISAQAEDKPEGFIEGSSLTVLNRNFYFNRDNRDS-TAPTYNSGKG  64
+
+Query  97   SQRIHQRNAWVQGTVLKYSSGYTQGTVGFGFDVAAFNEIALERGKGRIGGGGNRTLANSD  156
+            +   +   AW    + K++SG+TQGTVGFG D  A   + L+ G GR GG  +  +   D
+Sbjct  65   NTNGYSE-AWAHAIISKFNSGFTQGTVGFGVDAFAMIGLKLDTGDGRNGGRSSFDVLPVD  123
+
+Query  157  --GEALGEWSKLGVANIRLRASNTEFKAGRFLVNTPVFSYIDNRALPSSFTGFAVTSEEL  214
+              GEA  E++K+G A  ++R  +T  K G    +TPV +  D+R LP SF G  V +  +
+Sbjct  124  NKGEARDEYTKVGGA-AKVRLFDTIVKVGDVFPSTPVVASGDSRLLPESFRGVTVENTSI  182
+
+Query  215  DNLSLQAGSFRKVS-PRTGSGDEDMTTEYGTRQVKGDRLNYLGGNYKPLDGLEISLYGSH  273
+              L+LQ G    +S P + + +++  T YG   V    + Y GG+Y   D   +S+Y S 
+Sbjct  183  QGLTLQGGRLHAMSQPVSSNLNDNFVTFYGG-PVNSPWIGYGGGDYSINDNWTVSVYASQ  241
+
+Query  274  FQDVWNQYYLGVTHDIGDLENGIALRTAFNGYHTGDTGAREAGYIDNDTWSLAFTLGHRA  333
+             +DVWNQYY G T  +  L + +AL   FN Y   D G +  G  DN+ WS    + + A
+Sbjct  242  LKDVWNQYYAG-TSVVYPLSDDLALIGGFNYYKAVDEGKKRLGEFDNNIWSAKVGVRYGA  300
+
+Query  334  HALTLAYQQVDGNEYFDYVHETSAIFLANSM-LADYNSPNEKSAQIRYETDWSYYGVPGL  392
+            H L L++Q+ +G++ FDY+ ++ +IF+ NS+  +D+NSP E+S  +RY+ +++ YG+PGL
+Sbjct  301  HTLALSHQRNNGDDDFDYLRQSDSIFVDNSIQYSDFNSPKERSWMLRYDLNFTSYGIPGL  360
+
+Query  393  STGVWYVKGWDIDGTHYD-----GDRNGAYGNYAEVRAQDGEKHHELGLMAAYKVQNGPI  447
+            +    Y +G   D ++ +      D NG           D +K  E  +   Y VQ GP 
+Sbjct  361  TFMTRYARGSGADYSNANQFYMRTDDNG--------NPLDNQKRWERDVEVKYVVQTGPA  412
+
+Query  448  KDSTFKLTYMMHKASQNQIDGSVNELRLVSTFPFNLL  484
+            KD +F+L     +A+  + D  ++E R++  +P ++L
+Sbjct  413  KDLSFRLRQATTRATAFESD--LDETRVIIEYPLSIL  447
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.131    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0393    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2018096080
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 8, 2016  1:43 AM
+  Number of letters in database: 7,604,542
+  Number of sequences in database:  23,866
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

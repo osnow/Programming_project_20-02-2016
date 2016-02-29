@@ -1,0 +1,1229 @@
+PSIBLAST 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           23,866 sequences; 7,604,542 total letters
+
+Results from round 1
+
+
+Query= TSX_ECOLI_sequence
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_003102209.1|  MULTISPECIES: hypothetical protein               47.4    2e-06
+
+
+>ref|WP_003102209.1| MULTISPECIES: hypothetical protein [Pseudomonas]
+ ref|NP_248855.1| hypothetical protein PA0165 [Pseudomonas aeruginosa PAO1]
+ gb|AAG03555.1|AE004454_7 hypothetical protein PA0165 [Pseudomonas aeruginosa PAO1]
+ gb|ABJ15122.1| putative outer membrane protein [Pseudomonas aeruginosa UCBPP-PA14]
+ gb|EAZ55039.1| hypothetical protein PACG_03678 [Pseudomonas aeruginosa C3719]
+ gb|ABR82214.1| hypothetical protein PSPA7_0245 [Pseudomonas aeruginosa PA7]
+ dbj|GAA19779.1| putative outer membrane protein [Pseudomonas aeruginosa NCMG1179]
+ gb|AEO72654.1| putative outer membrane protein [Pseudomonas aeruginosa M18]
+ gb|EHS39263.1| hypothetical protein O1O_03706 [Pseudomonas aeruginosa MPAO1/P1]
+ gb|EHS43347.1| hypothetical protein O1Q_06942 [Pseudomonas aeruginosa MPAO1/P2]
+ gb|EIE45788.1| hypothetical protein CF510_14524 [Pseudomonas aeruginosa PADK2_CF510]
+ gb|AFM62461.1| hypothetical protein PADK2_00830 [Pseudomonas aeruginosa DK2]
+ gb|EJZ74841.1| putative outer membrane protein [Pseudomonas aeruginosa PAO579]
+ gb|EKA48424.1| hypothetical protein PACI27_0126 [Pseudomonas aeruginosa CI27]
+ gb|EKA58001.1| hypothetical protein PAE2_0131 [Pseudomonas aeruginosa E2]
+ gb|EME92935.1| hypothetical protein H123_16768 [Pseudomonas aeruginosa PA21_ST175]
+ gb|EMZ52552.1| hypothetical protein HMPREF1224_08234 [Pseudomonas sp. P179]
+ gb|EOQ82279.1| hypothetical protein K652_00825 [Pseudomonas aeruginosa VRFPA02]
+ gb|EOT08477.1| hypothetical protein L346_04354 [Pseudomonas aeruginosa MSH-10]
+ gb|EOT10861.1| hypothetical protein CIA_04911 [Pseudomonas aeruginosa PA14]
+ gb|EOT25141.1| hypothetical protein PAK_00382 [Pseudomonas aeruginosa PAK]
+ gb|AGO38137.1| membrane protein [Pseudomonas aeruginosa RP73]
+ gb|ERF05622.1| membrane protein [Pseudomonas aeruginosa HB13]
+ gb|AGV67944.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa c7447m]
+ gb|AGV60019.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO581]
+ gb|ERU35779.1| hypothetical protein Q091_06324 [Pseudomonas aeruginosa C52]
+ gb|ERU36461.1| hypothetical protein Q092_03807 [Pseudomonas aeruginosa CF77]
+ gb|ERU38556.1| hypothetical protein Q093_02652 [Pseudomonas aeruginosa CF614]
+ gb|ERU50516.1| hypothetical protein Q090_04223 [Pseudomonas aeruginosa C51]
+ gb|ERU60728.1| hypothetical protein Q088_05186 [Pseudomonas aeruginosa C41]
+ gb|ERU61094.1| hypothetical protein Q087_05420 [Pseudomonas aeruginosa C40]
+ gb|ERU71092.1| hypothetical protein Q089_00169 [Pseudomonas aeruginosa C48]
+ gb|ERU85504.1| hypothetical protein Q084_04949 [Pseudomonas aeruginosa M9A.1]
+ gb|ERU86493.1| hypothetical protein Q086_00167 [Pseudomonas aeruginosa C23]
+ gb|ERU88358.1| hypothetical protein Q085_00167 [Pseudomonas aeruginosa C20]
+ gb|ERU89082.1| hypothetical protein Q081_05607 [Pseudomonas aeruginosa M8A.2]
+ gb|ERU90617.1| hypothetical protein Q080_05668 [Pseudomonas aeruginosa M8A.1]
+ gb|ERV25174.1| hypothetical protein Q070_04735 [Pseudomonas aeruginosa BL16]
+ gb|ERV47735.1| hypothetical protein Q064_00167 [Pseudomonas aeruginosa BL10]
+ gb|ERV57983.1| hypothetical protein Q065_00250 [Pseudomonas aeruginosa BL11]
+ gb|ERV78991.1| hypothetical protein Q040_05840 [Pseudomonas aeruginosa BWHPSA027]
+ gb|ERV96621.1| hypothetical protein Q037_05739 [Pseudomonas aeruginosa BWHPSA024]
+ gb|ERW01636.1| hypothetical protein Q038_04269 [Pseudomonas aeruginosa BWHPSA025]
+ gb|ERW13182.1| hypothetical protein Q036_05587 [Pseudomonas aeruginosa BWHPSA023]
+ gb|ERW16208.1| hypothetical protein Q035_04692 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW28590.1| hypothetical protein Q032_05759 [Pseudomonas aeruginosa BWHPSA019]
+ gb|ERW39070.1| hypothetical protein Q033_01462 [Pseudomonas aeruginosa BWHPSA020]
+ gb|ERW40770.1| hypothetical protein Q030_06196 [Pseudomonas aeruginosa BWHPSA017]
+ gb|ERW44208.1| hypothetical protein Q031_04604 [Pseudomonas aeruginosa BWHPSA018]
+ gb|ERW47786.1| hypothetical protein Q027_04251 [Pseudomonas aeruginosa BWHPSA014]
+ gb|ERW68093.1| hypothetical protein Q024_05065 [Pseudomonas aeruginosa BWHPSA011]
+ gb|ERW74485.1| hypothetical protein Q026_00174 [Pseudomonas aeruginosa BWHPSA013]
+ gb|ERW87842.1| hypothetical protein Q017_05293 [Pseudomonas aeruginosa BWHPSA004]
+ gb|ERW91183.1| hypothetical protein Q018_00167 [Pseudomonas aeruginosa BWHPSA005]
+ gb|ERW93099.1| hypothetical protein Q016_05752 [Pseudomonas aeruginosa BWHPSA003]
+ gb|ERW98669.1| hypothetical protein Q015_05210 [Pseudomonas aeruginosa BWHPSA002]
+ gb|ERX16601.1| hypothetical protein Q012_03680 [Pseudomonas aeruginosa S35004]
+ gb|ERX24157.1| hypothetical protein Q014_00169 [Pseudomonas aeruginosa BWHPSA001]
+ gb|ERX48080.1| hypothetical protein Q002_05385 [Pseudomonas aeruginosa CF18]
+ gb|ERX52445.1| hypothetical protein Q006_04258 [Pseudomonas aeruginosa UDL]
+ gb|ERX53723.1| hypothetical protein Q005_05022 [Pseudomonas aeruginosa X24509]
+ gb|ERX64886.1| hypothetical protein P999_04898 [Pseudomonas aeruginosa MSH3]
+ gb|ERX68566.1| hypothetical protein P997_05464 [Pseudomonas aeruginosa 62]
+ gb|ERX69655.1| hypothetical protein P998_04956 [Pseudomonas aeruginosa E2]
+ gb|ERX88617.1| hypothetical protein Q083_04351 [Pseudomonas aeruginosa M8A.4]
+ gb|ERX98742.1| hypothetical protein Q078_03554 [Pseudomonas aeruginosa BL24]
+ gb|ERY33261.1| hypothetical protein Q066_04678 [Pseudomonas aeruginosa BL12]
+ gb|ERY39680.1| hypothetical protein Q059_05681 [Pseudomonas aeruginosa BL05]
+ gb|ERY45070.1| hypothetical protein Q060_04885 [Pseudomonas aeruginosa BL06]
+ gb|ERY57703.1| hypothetical protein Q056_04739 [Pseudomonas aeruginosa BL02]
+ gb|ERY74402.1| hypothetical protein Q029_04482 [Pseudomonas aeruginosa BWHPSA016]
+ gb|ERY86835.1| hypothetical protein Q023_04241 [Pseudomonas aeruginosa BWHPSA010]
+ gb|ERY91484.1| hypothetical protein Q021_03408 [Pseudomonas aeruginosa BWHPSA008]
+ gb|ERZ02098.1| hypothetical protein Q020_05397 [Pseudomonas aeruginosa BWHPSA007]
+ gb|ERZ03032.1| hypothetical protein Q022_00126 [Pseudomonas aeruginosa BWHPSA009]
+ gb|ERZ17276.1| hypothetical protein Q004_05122 [Pseudomonas aeruginosa CF5]
+ gb|ERZ31486.1| hypothetical protein Q000_05485 [Pseudomonas aeruginosa MSH10]
+ gb|ERZ32864.1| hypothetical protein Q001_05413 [Pseudomonas aeruginosa CF127]
+ gb|ERZ45548.1| hypothetical protein Q082_03318 [Pseudomonas aeruginosa M8A.3]
+ gb|AGY63842.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO1-VE2]
+ gb|AGY74183.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO1-VE13]
+ gb|AHA19599.1| hypothetical protein PA1S_00865 [Pseudomonas aeruginosa PA1]
+ gb|AHA25398.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+PA1R]
+ gb|ESZ85186.1| membrane protein [Pseudomonas aeruginosa DHS29]
+ gb|AHC74284.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+SCV20265]
+ emb|CDH68462.1| hypothetical protein P38_0128 [Pseudomonas aeruginosa MH38]
+ gb|ETU75588.1| hypothetical protein Q054_04451 [Pseudomonas aeruginosa Z61]
+ gb|ETU84039.1| hypothetical protein Q094_05114 [Pseudomonas aeruginosa PS42]
+ gb|ETU91330.1| hypothetical protein Q053_00167 [Pseudomonas aeruginosa BWHPSA048]
+ gb|ETU95533.1| hypothetical protein Q052_04394 [Pseudomonas aeruginosa BWHPSA047]
+ gb|ETU97934.1| hypothetical protein Q051_04845 [Pseudomonas aeruginosa BWHPSA046]
+ gb|ETV03977.1| hypothetical protein Q050_06464 [Pseudomonas aeruginosa BWHPSA045]
+ gb|ETV11884.1| hypothetical protein Q049_05982 [Pseudomonas aeruginosa BWHPSA044]
+ gb|ETV21741.1| hypothetical protein Q047_04989 [Pseudomonas aeruginosa BWHPSA042]
+ gb|ETV24714.1| hypothetical protein Q046_06267 [Pseudomonas aeruginosa BWHPSA041]
+ gb|ETV46915.1| hypothetical protein Q045_00170 [Pseudomonas aeruginosa BWHPSA040]
+ gb|ETV53081.1| hypothetical protein Q044_00175 [Pseudomonas aeruginosa BWHPSA039]
+ gb|AHH47859.1| membrane protein [Pseudomonas aeruginosa YL84]
+ gb|EVT88374.1| membrane protein [Pseudomonas aeruginosa VRFPA09]
+ gb|EWH25237.1| membrane protein [Pseudomonas aeruginosa SG17M]
+ gb|EYT99324.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+PA99]
+ gb|AHW68664.1| hypothetical protein PA96_0170 [Pseudomonas aeruginosa PA96]
+ gb|EZN44570.1| hypothetical protein AJ76_04344 [Pseudomonas aeruginosa BWH036]
+ gb|EZN45804.1| hypothetical protein AJ73_05093 [Pseudomonas aeruginosa BWH033]
+ gb|EZN48939.1| hypothetical protein AJ75_04708 [Pseudomonas aeruginosa BWH035]
+ gb|EZN61869.1| hypothetical protein AJ72_04434 [Pseudomonas aeruginosa BWH032]
+ gb|EZN68106.1| hypothetical protein AJ71_04623 [Pseudomonas aeruginosa BWH031]
+ gb|EZN76674.1| hypothetical protein AJ69_04750 [Pseudomonas aeruginosa BWH029]
+ gb|EZN87684.1| hypothetical protein AJ68_04663 [Pseudomonas aeruginosa 3581]
+ gb|EZN90637.1| hypothetical protein AJ67_02727 [Pseudomonas aeruginosa 3580]
+ gb|EZN99818.1| hypothetical protein AJ66_04062 [Pseudomonas aeruginosa 3579]
+ gb|EZO04231.1| hypothetical protein AJ64_03645 [Pseudomonas aeruginosa 3577]
+ gb|EZO10395.1| hypothetical protein AJ65_04435 [Pseudomonas aeruginosa 3578]
+ gb|EZO18137.1| hypothetical protein AJ63_04112 [Pseudomonas aeruginosa 3576]
+ gb|EZO24832.1| hypothetical protein AJ62_03069 [Pseudomonas aeruginosa 3575]
+ gb|EZO29772.1| hypothetical protein V563_04969 [Pseudomonas aeruginosa PAO1-GFP]
+ gb|EZO31714.1| hypothetical protein AJ61_03874 [Pseudomonas aeruginosa 3574]
+ gb|EZO48230.1| hypothetical protein V562_03907 [Pseudomonas aeruginosa PS75]
+ gb|EZO61385.1| hypothetical protein V560_04836 [Pseudomonas aeruginosa BWH059]
+ gb|EZO62267.1| hypothetical protein V559_00168 [Pseudomonas aeruginosa BWH058]
+ gb|EZO68333.1| hypothetical protein V558_04794 [Pseudomonas aeruginosa BWH057]
+ gb|EZO76048.1| hypothetical protein V556_05348 [Pseudomonas aeruginosa BWH055]
+ gb|EZO78135.1| hypothetical protein V557_03708 [Pseudomonas aeruginosa BWH056]
+ gb|EZO94373.1| hypothetical protein V553_04809 [Pseudomonas aeruginosa BWH052]
+ gb|EZP10359.1| hypothetical protein V552_04013 [Pseudomonas aeruginosa BWH051]
+ gb|KAJ15274.1| membrane protein [Pseudomonas aeruginosa IGB83]
+ gb|KAJ18385.1| membrane protein [Pseudomonas aeruginosa M10]
+ gb|KAJ87804.1| membrane protein [Pseudomonas aeruginosa PAK]
+ dbj|GAJ54649.1| nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+RB]
+ gb|KDR50560.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KEA12628.1| membrane protein [Pseudomonas aeruginosa C1913C]
+ gb|KEA15444.1| membrane protein [Pseudomonas aeruginosa C2773C]
+ gb|KEA24107.1| membrane protein [Pseudomonas aeruginosa C0324C]
+ gb|AID71407.1| putative outer membrane protein [Pseudomonas aeruginosa PAO1H2O]
+ gb|KFB16896.1| membrane protein [Pseudomonas aeruginosa PGPR2]
+ gb|KFF36755.1| membrane protein [Pseudomonas aeruginosa VRFPA01]
+ gb|KFL12709.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa]
+ emb|CDO84885.1| putative outer membrane protein [Pseudomonas aeruginosa]
+ gb|KGB85361.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KGD91896.1| membrane protein [Pseudomonas sp. YS-1p]
+ gb|KHE62733.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CEI75481.1| Membrane protein [Pseudomonas aeruginosa]
+ emb|CEH97862.1| hypothetical protein PAMH19_0161 [Pseudomonas aeruginosa]
+ gb|AJD61465.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CDM43218.1| hypothetical protein PaWS136_0171 [Pseudomonas aeruginosa WS136]
+ gb|AJF52215.1| membrane protein [Pseudomonas aeruginosa]
+ dbj|BAQ36824.1| hypothetical protein PA257_0192 [Pseudomonas aeruginosa]
+ gb|KJC15567.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KJJ18064.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+sp. HMSC05H02]
+ emb|CKG66166.1| putative outer membrane protein [Pseudomonas aeruginosa]
+ dbj|BAR65033.1| nucleoside-binding outer membrane protein [Pseudomonas aeruginosa]
+ gb|AKE66805.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KKJ50656.1| membrane protein [Pseudomonas aeruginosa MRSN 321]
+ gb|KLI79848.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KMN06262.1| membrane protein [Pseudomonas aeruginosa]
+ gb|AKO84367.1| membrane protein [Pseudomonas aeruginosa DSM 50071]
+ emb|CRR60761.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP48283.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN71750.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO97873.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR92620.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP56048.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP45388.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ46160.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN25532.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP48949.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO22773.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO07842.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN36373.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP83470.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ01946.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO55832.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO20800.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ11253.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRW92552.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO11853.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN37797.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR62353.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP25777.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN59568.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO66512.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO28611.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ95706.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ60007.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO41840.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO74244.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS14059.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR54325.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX24892.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP97264.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN60039.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR04764.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO60648.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN29446.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP96574.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP44262.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR95872.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX13733.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP74534.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ00070.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS14385.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN95775.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX12438.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN92232.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP52310.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP19361.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS60663.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ40243.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX31107.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP45485.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX14541.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO80580.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR06215.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ40524.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ59912.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ23294.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR34550.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR79766.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP74008.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX20700.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR50035.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR70747.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ30929.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN52758.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX24594.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ08218.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ02462.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ03829.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR85131.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS17955.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRW70452.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ15911.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO94671.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR11663.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS15427.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS15816.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ51184.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ58633.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ67954.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX08362.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP92849.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP25450.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ gb|AKQ18323.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CTQ35097.1| hypothetical protein PAO1OR0166 [Pseudomonas aeruginosa]
+ gb|ALE46028.1| hypothetical protein AOD73_00865 [Pseudomonas aeruginosa]
+ gb|KPD28067.1| hypothetical protein AN920_16625 [Pseudomonas aeruginosa]
+ gb|KPE37087.1| hypothetical protein AOA73_11250 [Pseudomonas aeruginosa]
+ gb|KPE42125.1| hypothetical protein AOA75_02475 [Pseudomonas aeruginosa]
+ gb|KPE45574.1| hypothetical protein AOA76_17015 [Pseudomonas aeruginosa]
+ gb|KQB28986.1| hypothetical protein AOA77_26455 [Pseudomonas aeruginosa]
+ gb|KQC52563.1| hypothetical protein APG05_26635 [Pseudomonas aeruginosa]
+ gb|KQJ52566.1| hypothetical protein AN280_24850 [Pseudomonas aeruginosa]
+ gb|KQJ59696.1| hypothetical protein AN400_23920 [Pseudomonas aeruginosa]
+ gb|KQJ64001.1| hypothetical protein AN399_16125 [Pseudomonas aeruginosa]
+ gb|KQJ70729.1| hypothetical protein AN447_25280 [Pseudomonas aeruginosa]
+ gb|KQJ76048.1| hypothetical protein AN446_16720 [Pseudomonas aeruginosa]
+ gb|KQK62079.1| hypothetical protein AOX62_06315 [Pseudomonas aeruginosa]
+ gb|KQK66101.1| hypothetical protein AOX61_06055 [Pseudomonas aeruginosa]
+ emb|CRZ27750.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa DK1]
+ gb|KRU60767.1| hypothetical protein AN449_23680 [Pseudomonas aeruginosa]
+ gb|KRU62912.1| hypothetical protein AN448_22310 [Pseudomonas aeruginosa]
+ gb|KRU70730.1| hypothetical protein AN452_28210 [Pseudomonas aeruginosa]
+ gb|KRU73668.1| hypothetical protein AN451_22080 [Pseudomonas aeruginosa]
+ gb|KRU84473.1| hypothetical protein AN453_24470 [Pseudomonas aeruginosa]
+ gb|KRU86233.1| hypothetical protein AN454_21875 [Pseudomonas aeruginosa]
+ gb|KRV05353.1| hypothetical protein AN457_22100 [Pseudomonas aeruginosa]
+ gb|KRV25198.1| hypothetical protein AN460_25860 [Pseudomonas aeruginosa]
+ gb|KRV40391.1| hypothetical protein AN461_30025 [Pseudomonas aeruginosa]
+ gb|ALP57199.1| hypothetical protein ATC05_09470 [Pseudomonas aeruginosa]
+ gb|KSC03524.1| hypothetical protein AO879_07080 [Pseudomonas aeruginosa]
+ gb|KSC06441.1| hypothetical protein AO880_07080 [Pseudomonas aeruginosa]
+ gb|KSC18867.1| hypothetical protein AO878_05120 [Pseudomonas aeruginosa]
+ gb|KSC22543.1| hypothetical protein AO889_22590 [Pseudomonas aeruginosa]
+ gb|KSC28532.1| hypothetical protein AO886_05830 [Pseudomonas aeruginosa]
+ gb|KSC44908.1| hypothetical protein AO892_07885 [Pseudomonas aeruginosa]
+ gb|KSC45513.1| hypothetical protein AO881_05865 [Pseudomonas aeruginosa]
+ gb|KSC48718.1| hypothetical protein AO882_11765 [Pseudomonas aeruginosa]
+ gb|KSC60046.1| hypothetical protein AO887_07305 [Pseudomonas aeruginosa]
+ gb|KSC64590.1| hypothetical protein AO883_06670 [Pseudomonas aeruginosa]
+ gb|KSC70425.1| hypothetical protein AO895_07330 [Pseudomonas aeruginosa]
+ gb|KSC87089.1| hypothetical protein AO896_16715 [Pseudomonas aeruginosa]
+ gb|KSC88219.1| hypothetical protein AO894_08755 [Pseudomonas aeruginosa]
+ gb|KSC96793.1| hypothetical protein AO890_23815 [Pseudomonas aeruginosa]
+ gb|KSD05392.1| hypothetical protein AO897_08530 [Pseudomonas aeruginosa]
+ gb|KSD09068.1| hypothetical protein AO899_07340 [Pseudomonas aeruginosa]
+ gb|KSD18655.1| hypothetical protein AO898_19345 [Pseudomonas aeruginosa]
+ gb|KSD39946.1| hypothetical protein AO902_00490 [Pseudomonas aeruginosa]
+ gb|KSD42974.1| hypothetical protein AO900_04675 [Pseudomonas aeruginosa]
+ gb|KSD56625.1| hypothetical protein AO909_04490 [Pseudomonas aeruginosa]
+ gb|KSD61056.1| hypothetical protein AO905_06515 [Pseudomonas aeruginosa]
+ gb|KSD64018.1| hypothetical protein AO911_10670 [Pseudomonas aeruginosa]
+ gb|KSD78945.1| hypothetical protein AO903_03360 [Pseudomonas aeruginosa]
+ gb|KSD93242.1| hypothetical protein AO906_09385 [Pseudomonas aeruginosa]
+ gb|KSE01498.1| hypothetical protein AO912_08775 [Pseudomonas aeruginosa]
+ gb|KSE35093.1| hypothetical protein AO916_06155 [Pseudomonas aeruginosa]
+ gb|KSE41725.1| hypothetical protein AO921_14765 [Pseudomonas aeruginosa]
+ gb|KSE49541.1| hypothetical protein AO917_14550 [Pseudomonas aeruginosa]
+ gb|KSE62666.1| hypothetical protein AO913_03610 [Pseudomonas aeruginosa]
+ gb|KSE66030.1| hypothetical protein AO927_07380 [Pseudomonas aeruginosa]
+ gb|KSE71984.1| hypothetical protein AO918_10170 [Pseudomonas aeruginosa]
+ gb|KSE86911.1| hypothetical protein AO926_08770 [Pseudomonas aeruginosa]
+ gb|KSE96580.1| hypothetical protein AO932_18150 [Pseudomonas aeruginosa]
+ gb|KSF16634.1| hypothetical protein AO923_06950 [Pseudomonas aeruginosa]
+ gb|KSF23354.1| hypothetical protein AO929_09195 [Pseudomonas aeruginosa]
+ gb|KSF39602.1| hypothetical protein AO928_09030 [Pseudomonas aeruginosa]
+ gb|KSF49162.1| hypothetical protein AO939_18310 [Pseudomonas aeruginosa]
+ gb|KSF54588.1| hypothetical protein AO942_07670 [Pseudomonas aeruginosa]
+ gb|KSF71709.1| hypothetical protein AO936_04805 [Pseudomonas aeruginosa]
+ gb|KSF73646.1| hypothetical protein AO941_09140 [Pseudomonas aeruginosa]
+ gb|KSF79320.1| hypothetical protein AO940_13280 [Pseudomonas aeruginosa]
+ gb|KSF86504.1| hypothetical protein AO944_08220 [Pseudomonas aeruginosa]
+ gb|KSF99327.1| hypothetical protein AO949_03640 [Pseudomonas aeruginosa]
+ gb|KSG03318.1| hypothetical protein AO951_23145 [Pseudomonas aeruginosa]
+ gb|KSG22794.1| hypothetical protein AO948_10405 [Pseudomonas aeruginosa]
+ gb|KSG36724.1| hypothetical protein AO957_06980 [Pseudomonas aeruginosa]
+ gb|KSG39037.1| hypothetical protein AO946_05220 [Pseudomonas aeruginosa]
+ gb|KSG47605.1| hypothetical protein AO955_18210 [Pseudomonas aeruginosa]
+ gb|KSG68966.1| hypothetical protein AO960_06420 [Pseudomonas aeruginosa]
+ gb|KSG72249.1| hypothetical protein AO959_07950 [Pseudomonas aeruginosa]
+ gb|KSG98935.1| hypothetical protein AO964_31795 [Pseudomonas aeruginosa]
+ gb|KSH03914.1| hypothetical protein AO968_06585 [Pseudomonas aeruginosa]
+ gb|KSH08898.1| hypothetical protein AO958_21170 [Pseudomonas aeruginosa]
+ gb|KSH19510.1| hypothetical protein AO962_23095 [Pseudomonas aeruginosa]
+ gb|KSH39332.1| hypothetical protein AO967_09280 [Pseudomonas aeruginosa]
+ gb|KSH55415.1| hypothetical protein AO971_08345 [Pseudomonas aeruginosa]
+ gb|KSI01231.1| hypothetical protein AO981_30565 [Pseudomonas aeruginosa]
+ gb|KSI15623.1| hypothetical protein AO976_08505 [Pseudomonas aeruginosa]
+ gb|KSI21120.1| hypothetical protein AO982_30340 [Pseudomonas aeruginosa]
+ gb|KSI30469.1| hypothetical protein AO987_08655 [Pseudomonas aeruginosa]
+ gb|KSI41408.1| hypothetical protein AO977_32470 [Pseudomonas aeruginosa]
+ gb|KSI43549.1| hypothetical protein AO986_06660 [Pseudomonas aeruginosa]
+ gb|KSI50530.1| hypothetical protein AO985_24125 [Pseudomonas aeruginosa]
+ gb|KSI71642.1| hypothetical protein AO990_07460 [Pseudomonas aeruginosa]
+ gb|KSI75956.1| hypothetical protein AO991_09105 [Pseudomonas aeruginosa]
+ gb|KSI86392.1| hypothetical protein AO988_08245 [Pseudomonas aeruginosa]
+ gb|KSI95453.1| hypothetical protein AO996_05190 [Pseudomonas aeruginosa]
+ gb|KSJ05636.1| hypothetical protein AO998_08990 [Pseudomonas aeruginosa]
+ gb|KSJ12574.1| hypothetical protein AO993_24040 [Pseudomonas aeruginosa]
+ gb|KSJ19061.1| hypothetical protein AO989_05005 [Pseudomonas aeruginosa]
+ gb|KSJ45286.1| hypothetical protein APA23_08425 [Pseudomonas aeruginosa]
+ gb|KSJ55577.1| hypothetical protein APA05_04160 [Pseudomonas aeruginosa]
+ gb|KSJ63725.1| hypothetical protein AO997_08995 [Pseudomonas aeruginosa]
+ gb|KSJ68899.1| hypothetical protein APA21_07710 [Pseudomonas aeruginosa]
+ gb|KSJ77493.1| hypothetical protein APA06_11900 [Pseudomonas aeruginosa]
+ gb|KSJ86622.1| hypothetical protein APA02_08495 [Pseudomonas aeruginosa]
+ gb|KSJ87637.1| hypothetical protein APA29_24965 [Pseudomonas aeruginosa]
+ gb|KSJ89657.1| hypothetical protein APA20_06305 [Pseudomonas aeruginosa]
+ gb|KSK02027.1| hypothetical protein APA24_08120 [Pseudomonas aeruginosa]
+ gb|KSK33164.1| hypothetical protein APA38_06360 [Pseudomonas aeruginosa]
+ gb|KSK46326.1| hypothetical protein APA41_08695 [Pseudomonas aeruginosa]
+ gb|KSK50664.1| hypothetical protein APA25_09805 [Pseudomonas aeruginosa]
+ gb|KSK54238.1| hypothetical protein APA40_24745 [Pseudomonas aeruginosa]
+ gb|KSK70086.1| hypothetical protein APA37_06675 [Pseudomonas aeruginosa]
+ gb|KSK83071.1| hypothetical protein APA34_09505 [Pseudomonas aeruginosa]
+ gb|KSK85529.1| hypothetical protein APA42_04150 [Pseudomonas aeruginosa]
+ gb|KSK98846.1| hypothetical protein APA31_07920 [Pseudomonas aeruginosa]
+ gb|KSK99278.1| hypothetical protein APA35_10580 [Pseudomonas aeruginosa]
+ gb|KSL00794.1| hypothetical protein APA49_04360 [Pseudomonas aeruginosa]
+ gb|KSL06456.1| hypothetical protein APA44_26525 [Pseudomonas aeruginosa]
+ gb|KSL26060.1| hypothetical protein APA46_18815 [Pseudomonas aeruginosa]
+ gb|KSL45153.1| hypothetical protein APA56_06760 [Pseudomonas aeruginosa]
+ gb|KSL58274.1| hypothetical protein APA47_08905 [Pseudomonas aeruginosa]
+ gb|KSL80706.1| hypothetical protein APA55_21205 [Pseudomonas aeruginosa]
+ gb|KSM06519.1| hypothetical protein APA57_07125 [Pseudomonas aeruginosa]
+ gb|KSM22071.1| hypothetical protein APA64_29555 [Pseudomonas aeruginosa]
+ gb|KSM22827.1| hypothetical protein APA61_06075 [Pseudomonas aeruginosa]
+ gb|KSM37801.1| hypothetical protein APA65_04480 [Pseudomonas aeruginosa]
+ gb|KSM56307.1| hypothetical protein APA69_06320 [Pseudomonas aeruginosa]
+ gb|KSM62131.1| hypothetical protein APA66_04410 [Pseudomonas aeruginosa]
+ gb|KSM77864.1| hypothetical protein APA68_06385 [Pseudomonas aeruginosa]
+ gb|KSM94204.1| hypothetical protein APA67_03435 [Pseudomonas aeruginosa]
+ gb|KSN03440.1| hypothetical protein APA82_08910 [Pseudomonas aeruginosa]
+ gb|KSN09156.1| hypothetical protein APA79_08755 [Pseudomonas aeruginosa]
+ gb|KSN21479.1| hypothetical protein APA83_09895 [Pseudomonas aeruginosa]
+ gb|KSN30754.1| hypothetical protein APA78_09580 [Pseudomonas aeruginosa]
+ gb|KSN37341.1| hypothetical protein APA77_10450 [Pseudomonas aeruginosa]
+ gb|KSN45705.1| hypothetical protein APA87_18555 [Pseudomonas aeruginosa]
+ gb|KSN48952.1| hypothetical protein APA75_06000 [Pseudomonas aeruginosa]
+ gb|KSN64095.1| hypothetical protein APA89_10065 [Pseudomonas aeruginosa]
+ gb|KSN76511.1| hypothetical protein APA93_28435 [Pseudomonas aeruginosa]
+ gb|KSN80457.1| hypothetical protein APA90_07355 [Pseudomonas aeruginosa]
+ gb|KSN94381.1| hypothetical protein APA96_23905 [Pseudomonas aeruginosa]
+ gb|KSN96788.1| hypothetical protein APA98_09070 [Pseudomonas aeruginosa]
+ gb|KSO19942.1| hypothetical protein APA92_06045 [Pseudomonas aeruginosa]
+ gb|KSO45068.1| hypothetical protein APB05_07450 [Pseudomonas aeruginosa]
+ gb|KSO56554.1| hypothetical protein APB06_07245 [Pseudomonas aeruginosa]
+ gb|KSO77479.1| hypothetical protein APA99_03825 [Pseudomonas aeruginosa]
+ gb|KSO77999.1| hypothetical protein APB01_08500 [Pseudomonas aeruginosa]
+ gb|KSO97952.1| hypothetical protein APB03_09995 [Pseudomonas aeruginosa]
+ gb|KSP08506.1| hypothetical protein APB11_05030 [Pseudomonas aeruginosa]
+ gb|KSP14142.1| hypothetical protein APB09_08000 [Pseudomonas aeruginosa]
+ gb|KSP26765.1| hypothetical protein APB10_07825 [Pseudomonas aeruginosa]
+ gb|KSP30562.1| hypothetical protein APB17_09415 [Pseudomonas aeruginosa]
+ gb|KSP43328.1| hypothetical protein APB16_09185 [Pseudomonas aeruginosa]
+ gb|KSP66802.1| hypothetical protein APB13_06275 [Pseudomonas aeruginosa]
+ gb|KSP85030.1| hypothetical protein APB20_10965 [Pseudomonas aeruginosa]
+ gb|KSP88195.1| hypothetical protein APB27_19465 [Pseudomonas aeruginosa]
+ gb|KSP91700.1| hypothetical protein APB25_34730 [Pseudomonas aeruginosa]
+ gb|KSQ13768.1| hypothetical protein APB33_22430 [Pseudomonas aeruginosa]
+ gb|KSQ29876.1| hypothetical protein APB34_23675 [Pseudomonas aeruginosa]
+ gb|KSQ37641.1| hypothetical protein APB26_06545 [Pseudomonas aeruginosa]
+ gb|KSQ56701.1| hypothetical protein APB23_09435 [Pseudomonas aeruginosa]
+ gb|KSQ63514.1| hypothetical protein APB39_16960 [Pseudomonas aeruginosa]
+ gb|KSQ95265.1| hypothetical protein APB41_06790 [Pseudomonas aeruginosa]
+ gb|KSQ97731.1| hypothetical protein APB38_19295 [Pseudomonas aeruginosa]
+ gb|KSR08996.1| hypothetical protein APB37_14580 [Pseudomonas aeruginosa]
+ gb|KSR26975.1| hypothetical protein APB49_06550 [Pseudomonas aeruginosa]
+ gb|KSR40347.1| hypothetical protein APB40_15625 [Pseudomonas aeruginosa]
+ gb|KSR47187.1| hypothetical protein APB45_09400 [Pseudomonas aeruginosa]
+ gb|KSR64129.1| hypothetical protein APB46_08490 [Pseudomonas aeruginosa]
+ gb|KSR72188.1| hypothetical protein APB55_19475 [Pseudomonas aeruginosa]
+ gb|KSS15715.1| hypothetical protein APB54_09330 [Pseudomonas aeruginosa]
+ gb|KSS23841.1| hypothetical protein APB58_29170 [Pseudomonas aeruginosa]
+ gb|KSS25789.1| hypothetical protein APB66_08510 [Pseudomonas aeruginosa]
+ gb|KSS44286.1| hypothetical protein APB64_07355 [Pseudomonas aeruginosa]
+ gb|KSS50072.1| hypothetical protein APB63_21190 [Pseudomonas aeruginosa]
+ gb|KSS55961.1| hypothetical protein APB59_06740 [Pseudomonas aeruginosa]
+ gb|KSS71769.1| hypothetical protein APB68_05860 [Pseudomonas aeruginosa]
+ gb|KSS73825.1| hypothetical protein APB69_09165 [Pseudomonas aeruginosa]
+ gb|KSS74568.1| hypothetical protein APB73_09090 [Pseudomonas aeruginosa]
+ gb|KSS93171.1| hypothetical protein APB70_08600 [Pseudomonas aeruginosa]
+ gb|KSS93439.1| hypothetical protein APB67_07585 [Pseudomonas aeruginosa]
+ gb|KSS94268.1| hypothetical protein APB72_09190 [Pseudomonas aeruginosa]
+ gb|KST04576.1| hypothetical protein APB74_18170 [Pseudomonas aeruginosa]
+ gb|KST12155.1| hypothetical protein APB75_11100 [Pseudomonas aeruginosa]
+ gb|KTF50297.1| hypothetical protein WM51_24155 [Pseudomonas aeruginosa]
+ gb|KTK53868.1| hypothetical protein AL512_16325 [Pseudomonas aeruginosa]
+ gb|ALT74560.1| hypothetical protein AES1R_23415 [Pseudomonas aeruginosa AES-1R]
+ gb|ALU47613.1| hypothetical protein AU380_07655 [Pseudomonas aeruginosa]
+ gb|KUG34898.1| hypothetical protein AUQ38_21410 [Pseudomonas aeruginosa]
+ gb|ALV81345.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ gb|KUI84072.1| hypothetical protein AS195_19645 [Pseudomonas aeruginosa]
+ gb|KUI90017.1| hypothetical protein ASV59_00470 [Pseudomonas aeruginosa 0C2E]
+ gb|ALY35936.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY43617.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY50474.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY52331.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY58710.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY66538.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY73108.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY86469.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY78529.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY90186.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY96648.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ02106.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ22761.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ28359.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ88927.1| hypothetical protein APT60_00975 [Pseudomonas aeruginosa]
+ gb|AMA34598.1| hypothetical protein DPADHS01_00835 [Pseudomonas aeruginosa DHS01]
+ gb|KWR98114.1| hypothetical protein AVM47_00660 [Pseudomonas aeruginosa]
+ gb|ALZ29669.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ35955.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KWZ70438.1| hypothetical protein AKG06_20515 [Pseudomonas aeruginosa]
+Length=278
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 65/149 (44%), Gaps = 14/149 (9%)
+
+Query  5    LLAAGAVLALSSSFTVNAAENDKPQYLSDWWHQSVNVVGSYHTRFGPQIRNDTYLEYEAF  64
+            LLAAG  +A     T     +  P     W ++S+  +   + +  P I+    LE+ + 
+Sbjct  14   LLAAGQAVAEDHDMTPTHETDSGPLL---WHNESLTYLYGKNFKINPPIQQTFTLEHAS-  69
+
+Query  65   AKKDWFDFYGYADAPVFFGGNSDAKGIWNHGSPLFMEIEPRFSIDKLTNTDLSFGPFKEW  124
+                W D + + D  + + G  DA    N  +  + EI PR S  KLT  DLSFGP K+ 
+Sbjct  70   -GWTWGDLFIFFDQ-INYNGKEDAS---NGKNTYYGEITPRLSFGKLTGADLSFGPVKDV  124
+
+Query  125  YFANNYIYDMGRNKDGRQSTWYMGLGTDI  153
+              A  Y +      +G    + +G G D+
+Sbjct  125  LLAGTYEF-----GEGDTEAYLLGPGFDL  148
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1062117128
+Results from round 2
+
+
+Query= TSX_ECOLI_sequence
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_003102209.1|  MULTISPECIES: hypothetical protein                 196   2e-60
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>ref|WP_003102209.1| MULTISPECIES: hypothetical protein [Pseudomonas]
+ ref|NP_248855.1| hypothetical protein PA0165 [Pseudomonas aeruginosa PAO1]
+ gb|AAG03555.1|AE004454_7 hypothetical protein PA0165 [Pseudomonas aeruginosa PAO1]
+ gb|ABJ15122.1| putative outer membrane protein [Pseudomonas aeruginosa UCBPP-PA14]
+ gb|EAZ55039.1| hypothetical protein PACG_03678 [Pseudomonas aeruginosa C3719]
+ gb|ABR82214.1| hypothetical protein PSPA7_0245 [Pseudomonas aeruginosa PA7]
+ dbj|GAA19779.1| putative outer membrane protein [Pseudomonas aeruginosa NCMG1179]
+ gb|AEO72654.1| putative outer membrane protein [Pseudomonas aeruginosa M18]
+ gb|EHS39263.1| hypothetical protein O1O_03706 [Pseudomonas aeruginosa MPAO1/P1]
+ gb|EHS43347.1| hypothetical protein O1Q_06942 [Pseudomonas aeruginosa MPAO1/P2]
+ gb|EIE45788.1| hypothetical protein CF510_14524 [Pseudomonas aeruginosa PADK2_CF510]
+ gb|AFM62461.1| hypothetical protein PADK2_00830 [Pseudomonas aeruginosa DK2]
+ gb|EJZ74841.1| putative outer membrane protein [Pseudomonas aeruginosa PAO579]
+ gb|EKA48424.1| hypothetical protein PACI27_0126 [Pseudomonas aeruginosa CI27]
+ gb|EKA58001.1| hypothetical protein PAE2_0131 [Pseudomonas aeruginosa E2]
+ gb|EME92935.1| hypothetical protein H123_16768 [Pseudomonas aeruginosa PA21_ST175]
+ gb|EMZ52552.1| hypothetical protein HMPREF1224_08234 [Pseudomonas sp. P179]
+ gb|EOQ82279.1| hypothetical protein K652_00825 [Pseudomonas aeruginosa VRFPA02]
+ gb|EOT08477.1| hypothetical protein L346_04354 [Pseudomonas aeruginosa MSH-10]
+ gb|EOT10861.1| hypothetical protein CIA_04911 [Pseudomonas aeruginosa PA14]
+ gb|EOT25141.1| hypothetical protein PAK_00382 [Pseudomonas aeruginosa PAK]
+ gb|AGO38137.1| membrane protein [Pseudomonas aeruginosa RP73]
+ gb|ERF05622.1| membrane protein [Pseudomonas aeruginosa HB13]
+ gb|AGV67944.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa c7447m]
+ gb|AGV60019.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO581]
+ gb|ERU35779.1| hypothetical protein Q091_06324 [Pseudomonas aeruginosa C52]
+ gb|ERU36461.1| hypothetical protein Q092_03807 [Pseudomonas aeruginosa CF77]
+ gb|ERU38556.1| hypothetical protein Q093_02652 [Pseudomonas aeruginosa CF614]
+ gb|ERU50516.1| hypothetical protein Q090_04223 [Pseudomonas aeruginosa C51]
+ gb|ERU60728.1| hypothetical protein Q088_05186 [Pseudomonas aeruginosa C41]
+ gb|ERU61094.1| hypothetical protein Q087_05420 [Pseudomonas aeruginosa C40]
+ gb|ERU71092.1| hypothetical protein Q089_00169 [Pseudomonas aeruginosa C48]
+ gb|ERU85504.1| hypothetical protein Q084_04949 [Pseudomonas aeruginosa M9A.1]
+ gb|ERU86493.1| hypothetical protein Q086_00167 [Pseudomonas aeruginosa C23]
+ gb|ERU88358.1| hypothetical protein Q085_00167 [Pseudomonas aeruginosa C20]
+ gb|ERU89082.1| hypothetical protein Q081_05607 [Pseudomonas aeruginosa M8A.2]
+ gb|ERU90617.1| hypothetical protein Q080_05668 [Pseudomonas aeruginosa M8A.1]
+ gb|ERV25174.1| hypothetical protein Q070_04735 [Pseudomonas aeruginosa BL16]
+ gb|ERV47735.1| hypothetical protein Q064_00167 [Pseudomonas aeruginosa BL10]
+ gb|ERV57983.1| hypothetical protein Q065_00250 [Pseudomonas aeruginosa BL11]
+ gb|ERV78991.1| hypothetical protein Q040_05840 [Pseudomonas aeruginosa BWHPSA027]
+ gb|ERV96621.1| hypothetical protein Q037_05739 [Pseudomonas aeruginosa BWHPSA024]
+ gb|ERW01636.1| hypothetical protein Q038_04269 [Pseudomonas aeruginosa BWHPSA025]
+ gb|ERW13182.1| hypothetical protein Q036_05587 [Pseudomonas aeruginosa BWHPSA023]
+ gb|ERW16208.1| hypothetical protein Q035_04692 [Pseudomonas aeruginosa BWHPSA022]
+ gb|ERW28590.1| hypothetical protein Q032_05759 [Pseudomonas aeruginosa BWHPSA019]
+ gb|ERW39070.1| hypothetical protein Q033_01462 [Pseudomonas aeruginosa BWHPSA020]
+ gb|ERW40770.1| hypothetical protein Q030_06196 [Pseudomonas aeruginosa BWHPSA017]
+ gb|ERW44208.1| hypothetical protein Q031_04604 [Pseudomonas aeruginosa BWHPSA018]
+ gb|ERW47786.1| hypothetical protein Q027_04251 [Pseudomonas aeruginosa BWHPSA014]
+ gb|ERW68093.1| hypothetical protein Q024_05065 [Pseudomonas aeruginosa BWHPSA011]
+ gb|ERW74485.1| hypothetical protein Q026_00174 [Pseudomonas aeruginosa BWHPSA013]
+ gb|ERW87842.1| hypothetical protein Q017_05293 [Pseudomonas aeruginosa BWHPSA004]
+ gb|ERW91183.1| hypothetical protein Q018_00167 [Pseudomonas aeruginosa BWHPSA005]
+ gb|ERW93099.1| hypothetical protein Q016_05752 [Pseudomonas aeruginosa BWHPSA003]
+ gb|ERW98669.1| hypothetical protein Q015_05210 [Pseudomonas aeruginosa BWHPSA002]
+ gb|ERX16601.1| hypothetical protein Q012_03680 [Pseudomonas aeruginosa S35004]
+ gb|ERX24157.1| hypothetical protein Q014_00169 [Pseudomonas aeruginosa BWHPSA001]
+ gb|ERX48080.1| hypothetical protein Q002_05385 [Pseudomonas aeruginosa CF18]
+ gb|ERX52445.1| hypothetical protein Q006_04258 [Pseudomonas aeruginosa UDL]
+ gb|ERX53723.1| hypothetical protein Q005_05022 [Pseudomonas aeruginosa X24509]
+ gb|ERX64886.1| hypothetical protein P999_04898 [Pseudomonas aeruginosa MSH3]
+ gb|ERX68566.1| hypothetical protein P997_05464 [Pseudomonas aeruginosa 62]
+ gb|ERX69655.1| hypothetical protein P998_04956 [Pseudomonas aeruginosa E2]
+ gb|ERX88617.1| hypothetical protein Q083_04351 [Pseudomonas aeruginosa M8A.4]
+ gb|ERX98742.1| hypothetical protein Q078_03554 [Pseudomonas aeruginosa BL24]
+ gb|ERY33261.1| hypothetical protein Q066_04678 [Pseudomonas aeruginosa BL12]
+ gb|ERY39680.1| hypothetical protein Q059_05681 [Pseudomonas aeruginosa BL05]
+ gb|ERY45070.1| hypothetical protein Q060_04885 [Pseudomonas aeruginosa BL06]
+ gb|ERY57703.1| hypothetical protein Q056_04739 [Pseudomonas aeruginosa BL02]
+ gb|ERY74402.1| hypothetical protein Q029_04482 [Pseudomonas aeruginosa BWHPSA016]
+ gb|ERY86835.1| hypothetical protein Q023_04241 [Pseudomonas aeruginosa BWHPSA010]
+ gb|ERY91484.1| hypothetical protein Q021_03408 [Pseudomonas aeruginosa BWHPSA008]
+ gb|ERZ02098.1| hypothetical protein Q020_05397 [Pseudomonas aeruginosa BWHPSA007]
+ gb|ERZ03032.1| hypothetical protein Q022_00126 [Pseudomonas aeruginosa BWHPSA009]
+ gb|ERZ17276.1| hypothetical protein Q004_05122 [Pseudomonas aeruginosa CF5]
+ gb|ERZ31486.1| hypothetical protein Q000_05485 [Pseudomonas aeruginosa MSH10]
+ gb|ERZ32864.1| hypothetical protein Q001_05413 [Pseudomonas aeruginosa CF127]
+ gb|ERZ45548.1| hypothetical protein Q082_03318 [Pseudomonas aeruginosa M8A.3]
+ gb|AGY63842.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO1-VE2]
+ gb|AGY74183.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa PAO1-VE13]
+ gb|AHA19599.1| hypothetical protein PA1S_00865 [Pseudomonas aeruginosa PA1]
+ gb|AHA25398.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+PA1R]
+ gb|ESZ85186.1| membrane protein [Pseudomonas aeruginosa DHS29]
+ gb|AHC74284.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+SCV20265]
+ emb|CDH68462.1| hypothetical protein P38_0128 [Pseudomonas aeruginosa MH38]
+ gb|ETU75588.1| hypothetical protein Q054_04451 [Pseudomonas aeruginosa Z61]
+ gb|ETU84039.1| hypothetical protein Q094_05114 [Pseudomonas aeruginosa PS42]
+ gb|ETU91330.1| hypothetical protein Q053_00167 [Pseudomonas aeruginosa BWHPSA048]
+ gb|ETU95533.1| hypothetical protein Q052_04394 [Pseudomonas aeruginosa BWHPSA047]
+ gb|ETU97934.1| hypothetical protein Q051_04845 [Pseudomonas aeruginosa BWHPSA046]
+ gb|ETV03977.1| hypothetical protein Q050_06464 [Pseudomonas aeruginosa BWHPSA045]
+ gb|ETV11884.1| hypothetical protein Q049_05982 [Pseudomonas aeruginosa BWHPSA044]
+ gb|ETV21741.1| hypothetical protein Q047_04989 [Pseudomonas aeruginosa BWHPSA042]
+ gb|ETV24714.1| hypothetical protein Q046_06267 [Pseudomonas aeruginosa BWHPSA041]
+ gb|ETV46915.1| hypothetical protein Q045_00170 [Pseudomonas aeruginosa BWHPSA040]
+ gb|ETV53081.1| hypothetical protein Q044_00175 [Pseudomonas aeruginosa BWHPSA039]
+ gb|AHH47859.1| membrane protein [Pseudomonas aeruginosa YL84]
+ gb|EVT88374.1| membrane protein [Pseudomonas aeruginosa VRFPA09]
+ gb|EWH25237.1| membrane protein [Pseudomonas aeruginosa SG17M]
+ gb|EYT99324.1| Nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+PA99]
+ gb|AHW68664.1| hypothetical protein PA96_0170 [Pseudomonas aeruginosa PA96]
+ gb|EZN44570.1| hypothetical protein AJ76_04344 [Pseudomonas aeruginosa BWH036]
+ gb|EZN45804.1| hypothetical protein AJ73_05093 [Pseudomonas aeruginosa BWH033]
+ gb|EZN48939.1| hypothetical protein AJ75_04708 [Pseudomonas aeruginosa BWH035]
+ gb|EZN61869.1| hypothetical protein AJ72_04434 [Pseudomonas aeruginosa BWH032]
+ gb|EZN68106.1| hypothetical protein AJ71_04623 [Pseudomonas aeruginosa BWH031]
+ gb|EZN76674.1| hypothetical protein AJ69_04750 [Pseudomonas aeruginosa BWH029]
+ gb|EZN87684.1| hypothetical protein AJ68_04663 [Pseudomonas aeruginosa 3581]
+ gb|EZN90637.1| hypothetical protein AJ67_02727 [Pseudomonas aeruginosa 3580]
+ gb|EZN99818.1| hypothetical protein AJ66_04062 [Pseudomonas aeruginosa 3579]
+ gb|EZO04231.1| hypothetical protein AJ64_03645 [Pseudomonas aeruginosa 3577]
+ gb|EZO10395.1| hypothetical protein AJ65_04435 [Pseudomonas aeruginosa 3578]
+ gb|EZO18137.1| hypothetical protein AJ63_04112 [Pseudomonas aeruginosa 3576]
+ gb|EZO24832.1| hypothetical protein AJ62_03069 [Pseudomonas aeruginosa 3575]
+ gb|EZO29772.1| hypothetical protein V563_04969 [Pseudomonas aeruginosa PAO1-GFP]
+ gb|EZO31714.1| hypothetical protein AJ61_03874 [Pseudomonas aeruginosa 3574]
+ gb|EZO48230.1| hypothetical protein V562_03907 [Pseudomonas aeruginosa PS75]
+ gb|EZO61385.1| hypothetical protein V560_04836 [Pseudomonas aeruginosa BWH059]
+ gb|EZO62267.1| hypothetical protein V559_00168 [Pseudomonas aeruginosa BWH058]
+ gb|EZO68333.1| hypothetical protein V558_04794 [Pseudomonas aeruginosa BWH057]
+ gb|EZO76048.1| hypothetical protein V556_05348 [Pseudomonas aeruginosa BWH055]
+ gb|EZO78135.1| hypothetical protein V557_03708 [Pseudomonas aeruginosa BWH056]
+ gb|EZO94373.1| hypothetical protein V553_04809 [Pseudomonas aeruginosa BWH052]
+ gb|EZP10359.1| hypothetical protein V552_04013 [Pseudomonas aeruginosa BWH051]
+ gb|KAJ15274.1| membrane protein [Pseudomonas aeruginosa IGB83]
+ gb|KAJ18385.1| membrane protein [Pseudomonas aeruginosa M10]
+ gb|KAJ87804.1| membrane protein [Pseudomonas aeruginosa PAK]
+ dbj|GAJ54649.1| nucleoside-binding outer membrane protein [Pseudomonas aeruginosa 
+RB]
+ gb|KDR50560.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KEA12628.1| membrane protein [Pseudomonas aeruginosa C1913C]
+ gb|KEA15444.1| membrane protein [Pseudomonas aeruginosa C2773C]
+ gb|KEA24107.1| membrane protein [Pseudomonas aeruginosa C0324C]
+ gb|AID71407.1| putative outer membrane protein [Pseudomonas aeruginosa PAO1H2O]
+ gb|KFB16896.1| membrane protein [Pseudomonas aeruginosa PGPR2]
+ gb|KFF36755.1| membrane protein [Pseudomonas aeruginosa VRFPA01]
+ gb|KFL12709.1| nucleoside-specific channel-forming , Tsx family protein [Pseudomonas 
+aeruginosa]
+ emb|CDO84885.1| putative outer membrane protein [Pseudomonas aeruginosa]
+ gb|KGB85361.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KGD91896.1| membrane protein [Pseudomonas sp. YS-1p]
+ gb|KHE62733.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CEI75481.1| Membrane protein [Pseudomonas aeruginosa]
+ emb|CEH97862.1| hypothetical protein PAMH19_0161 [Pseudomonas aeruginosa]
+ gb|AJD61465.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CDM43218.1| hypothetical protein PaWS136_0171 [Pseudomonas aeruginosa WS136]
+ gb|AJF52215.1| membrane protein [Pseudomonas aeruginosa]
+ dbj|BAQ36824.1| hypothetical protein PA257_0192 [Pseudomonas aeruginosa]
+ gb|KJC15567.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KJJ18064.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+sp. HMSC05H02]
+ emb|CKG66166.1| putative outer membrane protein [Pseudomonas aeruginosa]
+ dbj|BAR65033.1| nucleoside-binding outer membrane protein [Pseudomonas aeruginosa]
+ gb|AKE66805.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KKJ50656.1| membrane protein [Pseudomonas aeruginosa MRSN 321]
+ gb|KLI79848.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KMN06262.1| membrane protein [Pseudomonas aeruginosa]
+ gb|AKO84367.1| membrane protein [Pseudomonas aeruginosa DSM 50071]
+ emb|CRR60761.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP48283.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN71750.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO97873.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR92620.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP56048.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP45388.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ46160.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN25532.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP48949.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO22773.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO07842.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN36373.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP83470.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ01946.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO55832.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO20800.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ11253.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRW92552.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO11853.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN37797.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR62353.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP25777.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN59568.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO66512.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO28611.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ95706.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ60007.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO41840.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO74244.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS14059.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR54325.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX24892.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP97264.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN60039.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR04764.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO60648.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN29446.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP96574.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP44262.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR95872.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX13733.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP74534.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ00070.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS14385.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN95775.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX12438.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN92232.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP52310.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP19361.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS60663.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ40243.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX31107.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP45485.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX14541.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO80580.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR06215.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ40524.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ59912.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ23294.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR34550.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR79766.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP74008.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX20700.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR50035.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR70747.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ30929.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRN52758.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX24594.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ08218.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ02462.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ03829.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR85131.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS17955.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRW70452.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ15911.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRO94671.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRR11663.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS15427.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRS15816.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ51184.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ58633.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRQ67954.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRX08362.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP92849.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ emb|CRP25450.1| nucleoside-specific channel-forming protein Tsx [Pseudomonas 
+aeruginosa]
+ gb|AKQ18323.1| membrane protein [Pseudomonas aeruginosa]
+ emb|CTQ35097.1| hypothetical protein PAO1OR0166 [Pseudomonas aeruginosa]
+ gb|ALE46028.1| hypothetical protein AOD73_00865 [Pseudomonas aeruginosa]
+ gb|KPD28067.1| hypothetical protein AN920_16625 [Pseudomonas aeruginosa]
+ gb|KPE37087.1| hypothetical protein AOA73_11250 [Pseudomonas aeruginosa]
+ gb|KPE42125.1| hypothetical protein AOA75_02475 [Pseudomonas aeruginosa]
+ gb|KPE45574.1| hypothetical protein AOA76_17015 [Pseudomonas aeruginosa]
+ gb|KQB28986.1| hypothetical protein AOA77_26455 [Pseudomonas aeruginosa]
+ gb|KQC52563.1| hypothetical protein APG05_26635 [Pseudomonas aeruginosa]
+ gb|KQJ52566.1| hypothetical protein AN280_24850 [Pseudomonas aeruginosa]
+ gb|KQJ59696.1| hypothetical protein AN400_23920 [Pseudomonas aeruginosa]
+ gb|KQJ64001.1| hypothetical protein AN399_16125 [Pseudomonas aeruginosa]
+ gb|KQJ70729.1| hypothetical protein AN447_25280 [Pseudomonas aeruginosa]
+ gb|KQJ76048.1| hypothetical protein AN446_16720 [Pseudomonas aeruginosa]
+ gb|KQK62079.1| hypothetical protein AOX62_06315 [Pseudomonas aeruginosa]
+ gb|KQK66101.1| hypothetical protein AOX61_06055 [Pseudomonas aeruginosa]
+ emb|CRZ27750.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa DK1]
+ gb|KRU60767.1| hypothetical protein AN449_23680 [Pseudomonas aeruginosa]
+ gb|KRU62912.1| hypothetical protein AN448_22310 [Pseudomonas aeruginosa]
+ gb|KRU70730.1| hypothetical protein AN452_28210 [Pseudomonas aeruginosa]
+ gb|KRU73668.1| hypothetical protein AN451_22080 [Pseudomonas aeruginosa]
+ gb|KRU84473.1| hypothetical protein AN453_24470 [Pseudomonas aeruginosa]
+ gb|KRU86233.1| hypothetical protein AN454_21875 [Pseudomonas aeruginosa]
+ gb|KRV05353.1| hypothetical protein AN457_22100 [Pseudomonas aeruginosa]
+ gb|KRV25198.1| hypothetical protein AN460_25860 [Pseudomonas aeruginosa]
+ gb|KRV40391.1| hypothetical protein AN461_30025 [Pseudomonas aeruginosa]
+ gb|ALP57199.1| hypothetical protein ATC05_09470 [Pseudomonas aeruginosa]
+ gb|KSC03524.1| hypothetical protein AO879_07080 [Pseudomonas aeruginosa]
+ gb|KSC06441.1| hypothetical protein AO880_07080 [Pseudomonas aeruginosa]
+ gb|KSC18867.1| hypothetical protein AO878_05120 [Pseudomonas aeruginosa]
+ gb|KSC22543.1| hypothetical protein AO889_22590 [Pseudomonas aeruginosa]
+ gb|KSC28532.1| hypothetical protein AO886_05830 [Pseudomonas aeruginosa]
+ gb|KSC44908.1| hypothetical protein AO892_07885 [Pseudomonas aeruginosa]
+ gb|KSC45513.1| hypothetical protein AO881_05865 [Pseudomonas aeruginosa]
+ gb|KSC48718.1| hypothetical protein AO882_11765 [Pseudomonas aeruginosa]
+ gb|KSC60046.1| hypothetical protein AO887_07305 [Pseudomonas aeruginosa]
+ gb|KSC64590.1| hypothetical protein AO883_06670 [Pseudomonas aeruginosa]
+ gb|KSC70425.1| hypothetical protein AO895_07330 [Pseudomonas aeruginosa]
+ gb|KSC87089.1| hypothetical protein AO896_16715 [Pseudomonas aeruginosa]
+ gb|KSC88219.1| hypothetical protein AO894_08755 [Pseudomonas aeruginosa]
+ gb|KSC96793.1| hypothetical protein AO890_23815 [Pseudomonas aeruginosa]
+ gb|KSD05392.1| hypothetical protein AO897_08530 [Pseudomonas aeruginosa]
+ gb|KSD09068.1| hypothetical protein AO899_07340 [Pseudomonas aeruginosa]
+ gb|KSD18655.1| hypothetical protein AO898_19345 [Pseudomonas aeruginosa]
+ gb|KSD39946.1| hypothetical protein AO902_00490 [Pseudomonas aeruginosa]
+ gb|KSD42974.1| hypothetical protein AO900_04675 [Pseudomonas aeruginosa]
+ gb|KSD56625.1| hypothetical protein AO909_04490 [Pseudomonas aeruginosa]
+ gb|KSD61056.1| hypothetical protein AO905_06515 [Pseudomonas aeruginosa]
+ gb|KSD64018.1| hypothetical protein AO911_10670 [Pseudomonas aeruginosa]
+ gb|KSD78945.1| hypothetical protein AO903_03360 [Pseudomonas aeruginosa]
+ gb|KSD93242.1| hypothetical protein AO906_09385 [Pseudomonas aeruginosa]
+ gb|KSE01498.1| hypothetical protein AO912_08775 [Pseudomonas aeruginosa]
+ gb|KSE35093.1| hypothetical protein AO916_06155 [Pseudomonas aeruginosa]
+ gb|KSE41725.1| hypothetical protein AO921_14765 [Pseudomonas aeruginosa]
+ gb|KSE49541.1| hypothetical protein AO917_14550 [Pseudomonas aeruginosa]
+ gb|KSE62666.1| hypothetical protein AO913_03610 [Pseudomonas aeruginosa]
+ gb|KSE66030.1| hypothetical protein AO927_07380 [Pseudomonas aeruginosa]
+ gb|KSE71984.1| hypothetical protein AO918_10170 [Pseudomonas aeruginosa]
+ gb|KSE86911.1| hypothetical protein AO926_08770 [Pseudomonas aeruginosa]
+ gb|KSE96580.1| hypothetical protein AO932_18150 [Pseudomonas aeruginosa]
+ gb|KSF16634.1| hypothetical protein AO923_06950 [Pseudomonas aeruginosa]
+ gb|KSF23354.1| hypothetical protein AO929_09195 [Pseudomonas aeruginosa]
+ gb|KSF39602.1| hypothetical protein AO928_09030 [Pseudomonas aeruginosa]
+ gb|KSF49162.1| hypothetical protein AO939_18310 [Pseudomonas aeruginosa]
+ gb|KSF54588.1| hypothetical protein AO942_07670 [Pseudomonas aeruginosa]
+ gb|KSF71709.1| hypothetical protein AO936_04805 [Pseudomonas aeruginosa]
+ gb|KSF73646.1| hypothetical protein AO941_09140 [Pseudomonas aeruginosa]
+ gb|KSF79320.1| hypothetical protein AO940_13280 [Pseudomonas aeruginosa]
+ gb|KSF86504.1| hypothetical protein AO944_08220 [Pseudomonas aeruginosa]
+ gb|KSF99327.1| hypothetical protein AO949_03640 [Pseudomonas aeruginosa]
+ gb|KSG03318.1| hypothetical protein AO951_23145 [Pseudomonas aeruginosa]
+ gb|KSG22794.1| hypothetical protein AO948_10405 [Pseudomonas aeruginosa]
+ gb|KSG36724.1| hypothetical protein AO957_06980 [Pseudomonas aeruginosa]
+ gb|KSG39037.1| hypothetical protein AO946_05220 [Pseudomonas aeruginosa]
+ gb|KSG47605.1| hypothetical protein AO955_18210 [Pseudomonas aeruginosa]
+ gb|KSG68966.1| hypothetical protein AO960_06420 [Pseudomonas aeruginosa]
+ gb|KSG72249.1| hypothetical protein AO959_07950 [Pseudomonas aeruginosa]
+ gb|KSG98935.1| hypothetical protein AO964_31795 [Pseudomonas aeruginosa]
+ gb|KSH03914.1| hypothetical protein AO968_06585 [Pseudomonas aeruginosa]
+ gb|KSH08898.1| hypothetical protein AO958_21170 [Pseudomonas aeruginosa]
+ gb|KSH19510.1| hypothetical protein AO962_23095 [Pseudomonas aeruginosa]
+ gb|KSH39332.1| hypothetical protein AO967_09280 [Pseudomonas aeruginosa]
+ gb|KSH55415.1| hypothetical protein AO971_08345 [Pseudomonas aeruginosa]
+ gb|KSI01231.1| hypothetical protein AO981_30565 [Pseudomonas aeruginosa]
+ gb|KSI15623.1| hypothetical protein AO976_08505 [Pseudomonas aeruginosa]
+ gb|KSI21120.1| hypothetical protein AO982_30340 [Pseudomonas aeruginosa]
+ gb|KSI30469.1| hypothetical protein AO987_08655 [Pseudomonas aeruginosa]
+ gb|KSI41408.1| hypothetical protein AO977_32470 [Pseudomonas aeruginosa]
+ gb|KSI43549.1| hypothetical protein AO986_06660 [Pseudomonas aeruginosa]
+ gb|KSI50530.1| hypothetical protein AO985_24125 [Pseudomonas aeruginosa]
+ gb|KSI71642.1| hypothetical protein AO990_07460 [Pseudomonas aeruginosa]
+ gb|KSI75956.1| hypothetical protein AO991_09105 [Pseudomonas aeruginosa]
+ gb|KSI86392.1| hypothetical protein AO988_08245 [Pseudomonas aeruginosa]
+ gb|KSI95453.1| hypothetical protein AO996_05190 [Pseudomonas aeruginosa]
+ gb|KSJ05636.1| hypothetical protein AO998_08990 [Pseudomonas aeruginosa]
+ gb|KSJ12574.1| hypothetical protein AO993_24040 [Pseudomonas aeruginosa]
+ gb|KSJ19061.1| hypothetical protein AO989_05005 [Pseudomonas aeruginosa]
+ gb|KSJ45286.1| hypothetical protein APA23_08425 [Pseudomonas aeruginosa]
+ gb|KSJ55577.1| hypothetical protein APA05_04160 [Pseudomonas aeruginosa]
+ gb|KSJ63725.1| hypothetical protein AO997_08995 [Pseudomonas aeruginosa]
+ gb|KSJ68899.1| hypothetical protein APA21_07710 [Pseudomonas aeruginosa]
+ gb|KSJ77493.1| hypothetical protein APA06_11900 [Pseudomonas aeruginosa]
+ gb|KSJ86622.1| hypothetical protein APA02_08495 [Pseudomonas aeruginosa]
+ gb|KSJ87637.1| hypothetical protein APA29_24965 [Pseudomonas aeruginosa]
+ gb|KSJ89657.1| hypothetical protein APA20_06305 [Pseudomonas aeruginosa]
+ gb|KSK02027.1| hypothetical protein APA24_08120 [Pseudomonas aeruginosa]
+ gb|KSK33164.1| hypothetical protein APA38_06360 [Pseudomonas aeruginosa]
+ gb|KSK46326.1| hypothetical protein APA41_08695 [Pseudomonas aeruginosa]
+ gb|KSK50664.1| hypothetical protein APA25_09805 [Pseudomonas aeruginosa]
+ gb|KSK54238.1| hypothetical protein APA40_24745 [Pseudomonas aeruginosa]
+ gb|KSK70086.1| hypothetical protein APA37_06675 [Pseudomonas aeruginosa]
+ gb|KSK83071.1| hypothetical protein APA34_09505 [Pseudomonas aeruginosa]
+ gb|KSK85529.1| hypothetical protein APA42_04150 [Pseudomonas aeruginosa]
+ gb|KSK98846.1| hypothetical protein APA31_07920 [Pseudomonas aeruginosa]
+ gb|KSK99278.1| hypothetical protein APA35_10580 [Pseudomonas aeruginosa]
+ gb|KSL00794.1| hypothetical protein APA49_04360 [Pseudomonas aeruginosa]
+ gb|KSL06456.1| hypothetical protein APA44_26525 [Pseudomonas aeruginosa]
+ gb|KSL26060.1| hypothetical protein APA46_18815 [Pseudomonas aeruginosa]
+ gb|KSL45153.1| hypothetical protein APA56_06760 [Pseudomonas aeruginosa]
+ gb|KSL58274.1| hypothetical protein APA47_08905 [Pseudomonas aeruginosa]
+ gb|KSL80706.1| hypothetical protein APA55_21205 [Pseudomonas aeruginosa]
+ gb|KSM06519.1| hypothetical protein APA57_07125 [Pseudomonas aeruginosa]
+ gb|KSM22071.1| hypothetical protein APA64_29555 [Pseudomonas aeruginosa]
+ gb|KSM22827.1| hypothetical protein APA61_06075 [Pseudomonas aeruginosa]
+ gb|KSM37801.1| hypothetical protein APA65_04480 [Pseudomonas aeruginosa]
+ gb|KSM56307.1| hypothetical protein APA69_06320 [Pseudomonas aeruginosa]
+ gb|KSM62131.1| hypothetical protein APA66_04410 [Pseudomonas aeruginosa]
+ gb|KSM77864.1| hypothetical protein APA68_06385 [Pseudomonas aeruginosa]
+ gb|KSM94204.1| hypothetical protein APA67_03435 [Pseudomonas aeruginosa]
+ gb|KSN03440.1| hypothetical protein APA82_08910 [Pseudomonas aeruginosa]
+ gb|KSN09156.1| hypothetical protein APA79_08755 [Pseudomonas aeruginosa]
+ gb|KSN21479.1| hypothetical protein APA83_09895 [Pseudomonas aeruginosa]
+ gb|KSN30754.1| hypothetical protein APA78_09580 [Pseudomonas aeruginosa]
+ gb|KSN37341.1| hypothetical protein APA77_10450 [Pseudomonas aeruginosa]
+ gb|KSN45705.1| hypothetical protein APA87_18555 [Pseudomonas aeruginosa]
+ gb|KSN48952.1| hypothetical protein APA75_06000 [Pseudomonas aeruginosa]
+ gb|KSN64095.1| hypothetical protein APA89_10065 [Pseudomonas aeruginosa]
+ gb|KSN76511.1| hypothetical protein APA93_28435 [Pseudomonas aeruginosa]
+ gb|KSN80457.1| hypothetical protein APA90_07355 [Pseudomonas aeruginosa]
+ gb|KSN94381.1| hypothetical protein APA96_23905 [Pseudomonas aeruginosa]
+ gb|KSN96788.1| hypothetical protein APA98_09070 [Pseudomonas aeruginosa]
+ gb|KSO19942.1| hypothetical protein APA92_06045 [Pseudomonas aeruginosa]
+ gb|KSO45068.1| hypothetical protein APB05_07450 [Pseudomonas aeruginosa]
+ gb|KSO56554.1| hypothetical protein APB06_07245 [Pseudomonas aeruginosa]
+ gb|KSO77479.1| hypothetical protein APA99_03825 [Pseudomonas aeruginosa]
+ gb|KSO77999.1| hypothetical protein APB01_08500 [Pseudomonas aeruginosa]
+ gb|KSO97952.1| hypothetical protein APB03_09995 [Pseudomonas aeruginosa]
+ gb|KSP08506.1| hypothetical protein APB11_05030 [Pseudomonas aeruginosa]
+ gb|KSP14142.1| hypothetical protein APB09_08000 [Pseudomonas aeruginosa]
+ gb|KSP26765.1| hypothetical protein APB10_07825 [Pseudomonas aeruginosa]
+ gb|KSP30562.1| hypothetical protein APB17_09415 [Pseudomonas aeruginosa]
+ gb|KSP43328.1| hypothetical protein APB16_09185 [Pseudomonas aeruginosa]
+ gb|KSP66802.1| hypothetical protein APB13_06275 [Pseudomonas aeruginosa]
+ gb|KSP85030.1| hypothetical protein APB20_10965 [Pseudomonas aeruginosa]
+ gb|KSP88195.1| hypothetical protein APB27_19465 [Pseudomonas aeruginosa]
+ gb|KSP91700.1| hypothetical protein APB25_34730 [Pseudomonas aeruginosa]
+ gb|KSQ13768.1| hypothetical protein APB33_22430 [Pseudomonas aeruginosa]
+ gb|KSQ29876.1| hypothetical protein APB34_23675 [Pseudomonas aeruginosa]
+ gb|KSQ37641.1| hypothetical protein APB26_06545 [Pseudomonas aeruginosa]
+ gb|KSQ56701.1| hypothetical protein APB23_09435 [Pseudomonas aeruginosa]
+ gb|KSQ63514.1| hypothetical protein APB39_16960 [Pseudomonas aeruginosa]
+ gb|KSQ95265.1| hypothetical protein APB41_06790 [Pseudomonas aeruginosa]
+ gb|KSQ97731.1| hypothetical protein APB38_19295 [Pseudomonas aeruginosa]
+ gb|KSR08996.1| hypothetical protein APB37_14580 [Pseudomonas aeruginosa]
+ gb|KSR26975.1| hypothetical protein APB49_06550 [Pseudomonas aeruginosa]
+ gb|KSR40347.1| hypothetical protein APB40_15625 [Pseudomonas aeruginosa]
+ gb|KSR47187.1| hypothetical protein APB45_09400 [Pseudomonas aeruginosa]
+ gb|KSR64129.1| hypothetical protein APB46_08490 [Pseudomonas aeruginosa]
+ gb|KSR72188.1| hypothetical protein APB55_19475 [Pseudomonas aeruginosa]
+ gb|KSS15715.1| hypothetical protein APB54_09330 [Pseudomonas aeruginosa]
+ gb|KSS23841.1| hypothetical protein APB58_29170 [Pseudomonas aeruginosa]
+ gb|KSS25789.1| hypothetical protein APB66_08510 [Pseudomonas aeruginosa]
+ gb|KSS44286.1| hypothetical protein APB64_07355 [Pseudomonas aeruginosa]
+ gb|KSS50072.1| hypothetical protein APB63_21190 [Pseudomonas aeruginosa]
+ gb|KSS55961.1| hypothetical protein APB59_06740 [Pseudomonas aeruginosa]
+ gb|KSS71769.1| hypothetical protein APB68_05860 [Pseudomonas aeruginosa]
+ gb|KSS73825.1| hypothetical protein APB69_09165 [Pseudomonas aeruginosa]
+ gb|KSS74568.1| hypothetical protein APB73_09090 [Pseudomonas aeruginosa]
+ gb|KSS93171.1| hypothetical protein APB70_08600 [Pseudomonas aeruginosa]
+ gb|KSS93439.1| hypothetical protein APB67_07585 [Pseudomonas aeruginosa]
+ gb|KSS94268.1| hypothetical protein APB72_09190 [Pseudomonas aeruginosa]
+ gb|KST04576.1| hypothetical protein APB74_18170 [Pseudomonas aeruginosa]
+ gb|KST12155.1| hypothetical protein APB75_11100 [Pseudomonas aeruginosa]
+ gb|KTF50297.1| hypothetical protein WM51_24155 [Pseudomonas aeruginosa]
+ gb|KTK53868.1| hypothetical protein AL512_16325 [Pseudomonas aeruginosa]
+ gb|ALT74560.1| hypothetical protein AES1R_23415 [Pseudomonas aeruginosa AES-1R]
+ gb|ALU47613.1| hypothetical protein AU380_07655 [Pseudomonas aeruginosa]
+ gb|KUG34898.1| hypothetical protein AUQ38_21410 [Pseudomonas aeruginosa]
+ gb|ALV81345.1| Nucleoside-specific channel-forming protein, Tsx [Pseudomonas 
+aeruginosa]
+ gb|KUI84072.1| hypothetical protein AS195_19645 [Pseudomonas aeruginosa]
+ gb|KUI90017.1| hypothetical protein ASV59_00470 [Pseudomonas aeruginosa 0C2E]
+ gb|ALY35936.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY43617.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY50474.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY52331.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY58710.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY66538.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY73108.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY86469.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY78529.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY90186.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALY96648.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ02106.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ22761.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ28359.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ88927.1| hypothetical protein APT60_00975 [Pseudomonas aeruginosa]
+ gb|AMA34598.1| hypothetical protein DPADHS01_00835 [Pseudomonas aeruginosa DHS01]
+ gb|KWR98114.1| hypothetical protein AVM47_00660 [Pseudomonas aeruginosa]
+ gb|ALZ29669.1| membrane protein [Pseudomonas aeruginosa]
+ gb|ALZ35955.1| membrane protein [Pseudomonas aeruginosa]
+ gb|KWZ70438.1| hypothetical protein AKG06_20515 [Pseudomonas aeruginosa]
+Length=278
+
+ Score =   196 bits (498),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 42/149 (28%), Positives = 65/149 (44%), Gaps = 14/149 (9%)
+
+Query  5    LLAAGAVLALSSSFTVNAAENDKPQYLSDWWHQSVNVVGSYHTRFGPQIRNDTYLEYEAF  64
+            LLAAG  +A     T     +  P     W ++S+  +   + +  P I+    LE+ + 
+Sbjct  14   LLAAGQAVAEDHDMTPTHETDSGPLL---WHNESLTYLYGKNFKINPPIQQTFTLEHAS-  69
+
+Query  65   AKKDWFDFYGYADAPVFFGGNSDAKGIWNHGSPLFMEIEPRFSIDKLTNTDLSFGPFKEW  124
+                W D + + D  + + G  DA    N  +  + EI PR S  KLT  DLSFGP K+ 
+Sbjct  70   -GWTWGDLFIFFDQ-INYNGKEDAS---NGKNTYYGEITPRLSFGKLTGADLSFGPVKDV  124
+
+Query  125  YFANNYIYDMGRNKDGRQSTWYMGLGTDI  153
+              A  Y +      +G    + +G G D+
+Sbjct  125  LLAGTYEF-----GEGDTEAYLLGPGFDL  148
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1062117128
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 8, 2016  1:43 AM
+  Number of letters in database: 7,604,542
+  Number of sequences in database:  23,866
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

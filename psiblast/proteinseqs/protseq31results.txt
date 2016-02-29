@@ -1,0 +1,171 @@
+PSIBLAST 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           23,866 sequences; 7,604,542 total letters
+
+Results from round 1
+
+
+Query= VDAC1_MOUSE_sequence
+
+Length=296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|XP_960950.1|  outer mitochondrial membrane protein porin            136   1e-37
+
+
+>ref|XP_960950.1| outer mitochondrial membrane protein porin [Neurospora crassa 
+OR74A]
+ ref|XP_009847581.1| Mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2508]
+ sp|P07144.1|VDAC_NEUCR RecName: Full=Mitochondrial outer membrane protein porin
+ emb|CAA29264.1| unnamed protein product [Neurospora crassa]
+ gb|EAA31714.1| outer mitochondrial membrane protein porin [Neurospora crassa 
+OR74A]
+ emb|CAD71033.1| mitochondrial porin [Neurospora crassa]
+ gb|EGO60257.1| Mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2508]
+ gb|EGZ75781.1| mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2509]
+ gb|KHE82102.1| mitochondrial outer membrane protein porin [Neurospora crassa]
+Length=283
+
+ Score =   136 bits (342),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 86/286 (30%), Positives = 144/286 (50%), Gaps = 6/286 (2%)
+
+Query  14   MAVPPTYADLGKSARDVFTKG-YGFGLIKLDLKTKSENGLEFTSSGSANTETTKVNGSLE  72
+            MAVP  ++D+ KSA D+  K  Y      +++K+ + N + F  +G + T     +G+LE
+Sbjct  1    MAVP-AFSDIAKSANDLLNKDFYHLAAGTIEVKSNTPNNVAFKVTGKS-THDKVTSGALE  58
+
+Query  73   TKYRWTEYGLTFTEKWNTDNTLGTEITVEDQLARGLKLTFDSSFSPNTGKKNAKIKTGYK  132
+             K+     GLT T+ WNT N L T++ + D LA+GLK     SF P T  + AK    +K
+Sbjct  59   GKFTDKPNGLTVTQTWNTANALETKVEMADNLAKGLKAEGIFSFLPATNARGAKFNLHFK  118
+
+Query  133  REHINLGCDVDFDIAGPSIRGALVLGYEGWLAGYQMNFETSKSRVTQSNFAVGYKTDEFQ  192
+            + + +     D  + GP+     ++G+EG+LAG    ++  K+ +T  + AVGY    + 
+Sbjct  119  QSNFHGRAFFDL-LKGPTANIDAIVGHEGFLAGASAGYDVQKAAITGYSAAVGYHAPTYS  177
+
+Query  193  LHTNVNDG-TEFGGSIYQKVNKKLETAVNLAWTAGNSNTR-FGIAAKYQVDPDACFSAKV  250
+                  D  + F  S Y KVN ++E      W +   NT    +A KY++DP +    K+
+Sbjct  178  AAITATDNLSVFSASYYHKVNSQVEAGSKATWNSKTGNTVGLEVATKYRIDPVSFVKGKI  237
+
+Query  251  NNSSLIGLGYTQTLKPGIKLTLSALLDGKNVNAGGHKLGLGLEFQA  296
+            N+  +  + Y   L+ G+ L + A  D + ++   HK+G    F++
+Sbjct  238  NDRGVAAIAYNVLLREGVTLGVGASFDTQKLDQATHKVGTSFTFES  283
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1072791672
+Results from round 2
+
+
+Query= VDAC1_MOUSE_sequence
+
+Length=296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|XP_960950.1|  outer mitochondrial membrane protein porin            378   2e-131
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>ref|XP_960950.1| outer mitochondrial membrane protein porin [Neurospora crassa 
+OR74A]
+ ref|XP_009847581.1| Mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2508]
+ sp|P07144.1|VDAC_NEUCR RecName: Full=Mitochondrial outer membrane protein porin
+ emb|CAA29264.1| unnamed protein product [Neurospora crassa]
+ gb|EAA31714.1| outer mitochondrial membrane protein porin [Neurospora crassa 
+OR74A]
+ emb|CAD71033.1| mitochondrial porin [Neurospora crassa]
+ gb|EGO60257.1| Mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2508]
+ gb|EGZ75781.1| mitochondrial outer membrane protein porin [Neurospora tetrasperma 
+FGSC 2509]
+ gb|KHE82102.1| mitochondrial outer membrane protein porin [Neurospora crassa]
+Length=283
+
+ Score =   378 bits (971),  Expect = 2e-131, Method: Composition-based stats.
+ Identities = 86/286 (30%), Positives = 144/286 (50%), Gaps = 6/286 (2%)
+
+Query  14   MAVPPTYADLGKSARDVFTKG-YGFGLIKLDLKTKSENGLEFTSSGSANTETTKVNGSLE  72
+            MAVP  ++D+ KSA D+  K  Y      +++K+ + N + F  +G + T     +G+LE
+Sbjct  1    MAVP-AFSDIAKSANDLLNKDFYHLAAGTIEVKSNTPNNVAFKVTGKS-THDKVTSGALE  58
+
+Query  73   TKYRWTEYGLTFTEKWNTDNTLGTEITVEDQLARGLKLTFDSSFSPNTGKKNAKIKTGYK  132
+             K+     GLT T+ WNT N L T++ + D LA+GLK     SF P T  + AK    +K
+Sbjct  59   GKFTDKPNGLTVTQTWNTANALETKVEMADNLAKGLKAEGIFSFLPATNARGAKFNLHFK  118
+
+Query  133  REHINLGCDVDFDIAGPSIRGALVLGYEGWLAGYQMNFETSKSRVTQSNFAVGYKTDEFQ  192
+            + + +     D  + GP+     ++G+EG+LAG    ++  K+ +T  + AVGY    + 
+Sbjct  119  QSNFHGRAFFDL-LKGPTANIDAIVGHEGFLAGASAGYDVQKAAITGYSAAVGYHAPTYS  177
+
+Query  193  LHTNVNDG-TEFGGSIYQKVNKKLETAVNLAWTAGNSNTR-FGIAAKYQVDPDACFSAKV  250
+                  D  + F  S Y KVN ++E      W +   NT    +A KY++DP +    K+
+Sbjct  178  AAITATDNLSVFSASYYHKVNSQVEAGSKATWNSKTGNTVGLEVATKYRIDPVSFVKGKI  237
+
+Query  251  NNSSLIGLGYTQTLKPGIKLTLSALLDGKNVNAGGHKLGLGLEFQA  296
+            N+  +  + Y   L+ G+ L + A  D + ++   HK+G    F++
+Sbjct  238  NDRGVAAIAYNVLLREGVTLGVGASFDTQKLDQATHKVGTSFTFES  283
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1072791672
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 8, 2016  1:43 AM
+  Number of letters in database: 7,604,542
+  Number of sequences in database:  23,866
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
