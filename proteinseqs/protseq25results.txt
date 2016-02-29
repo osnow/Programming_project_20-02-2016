@@ -1,0 +1,475 @@
+PSIBLAST 2.2.30+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           23,866 sequences; 7,604,542 total letters
+
+Results from round 1
+
+
+Query= COLY_YERPE_sequence
+
+Length=312
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ref|WP_002208867.1|  MULTISPECIES: outer membrane protease              268   6e-88
+
+
+>ref|WP_002208867.1| MULTISPECIES: outer membrane protease [Yersinia pseudotuberculosis 
+complex]
+ ref|YP_002346260.1| outer membrane protease [Yersinia pestis CO92]
+ gb|AAM86508.1|AE013897_4 outer membrane protein 3b (a), protease VII [Yersinia pestis 
+KIM10+]
+ gb|AAS61166.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Microtus str. 91001]
+ gb|ABG19075.1| outer membrane-associated protease [Yersinia pestis Nepal516]
+ gb|ABG12912.1| putative outer membrane-associated protease [Yersinia pestis 
+Antiqua]
+ emb|CAL19888.1| putative outer membrane-associated protease [Yersinia pestis 
+CO92]
+ gb|ABP40839.1| outer membrane-associated protease [Yersinia pestis Pestoides 
+F]
+ gb|EDM41232.1| putative outer membrane-associated protease [Yersinia pestis 
+CA88-4125]
+ gb|ABX86628.1| peptidase, A26 family [Yersinia pestis Angola]
+ gb|EDR34430.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+IP275]
+ gb|EDR40806.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+F1991016]
+ gb|EDR43629.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. E1979001]
+ gb|EDR51577.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. B42003004]
+ gb|EDR58232.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+MG05-1020]
+ gb|EDR61532.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. UG05-0454]
+ gb|EDR66697.1| peptidase, A26 family [Yersinia pestis biovar Mediaevalis str. 
+K1973002]
+ gb|EEO75210.1| putative outer membrane-associated protease [Yersinia pestis 
+Nepal516]
+ gb|EEO81689.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Orientalis str. India 195]
+ gb|EEO87590.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Orientalis str. PEXU2]
+ gb|EEO91002.1| putative outer membrane-associated protease [Yersinia pestis 
+Pestoides A]
+ gb|ACY58002.1| putative outer membrane-associated protease [Yersinia pestis 
+D106004]
+ gb|ACY61739.1| putative outer membrane-associated protease [Yersinia pestis 
+D182038]
+ gb|EFA46425.1| outer membrane protease [Yersinia pestis KIM D27]
+ gb|ADE64042.1| putative outer membrane-associated protease [Yersinia pestis 
+Z176003]
+ gb|ADV99499.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Medievalis str. Harbin 35]
+ gb|AEL74621.1| outer membrane protease [Yersinia pestis A1122]
+ gb|EIQ91295.1| coagulase/fibrinolysin [Yersinia pestis PY-01]
+ gb|EIQ92368.1| coagulase/fibrinolysin [Yersinia pestis PY-02]
+ gb|EIQ93960.1| coagulase/fibrinolysin [Yersinia pestis PY-03]
+ gb|EIR05524.1| coagulase/fibrinolysin [Yersinia pestis PY-04]
+ gb|EIR06281.1| coagulase/fibrinolysin [Yersinia pestis PY-05]
+ gb|EIR09843.1| coagulase/fibrinolysin [Yersinia pestis PY-06]
+ gb|EIR20466.1| coagulase/fibrinolysin [Yersinia pestis PY-07]
+ gb|EIR21460.1| coagulase/fibrinolysin [Yersinia pestis PY-08]
+ gb|EIR23237.1| coagulase/fibrinolysin [Yersinia pestis PY-09]
+ gb|EIR35391.1| coagulase/fibrinolysin [Yersinia pestis PY-10]
+ gb|EIR36426.1| coagulase/fibrinolysin [Yersinia pestis PY-11]
+ gb|EIR36450.1| coagulase/fibrinolysin [Yersinia pestis PY-12]
+ gb|EIR49113.1| coagulase/fibrinolysin [Yersinia pestis PY-13]
+ gb|EIR50127.1| coagulase/fibrinolysin [Yersinia pestis PY-15]
+ gb|EIR52420.1| omptin family protein [Yersinia pestis PY-14]
+ gb|EIR63199.1| coagulase/fibrinolysin [Yersinia pestis PY-16]
+ gb|EIR64000.1| coagulase/fibrinolysin [Yersinia pestis PY-19]
+ gb|EIR67787.1| coagulase/fibrinolysin [Yersinia pestis PY-25]
+ gb|EIR77338.1| coagulase/fibrinolysin [Yersinia pestis PY-29]
+ gb|EIR79880.1| coagulase/fibrinolysin [Yersinia pestis PY-34]
+ gb|EIR80756.1| coagulase/fibrinolysin [Yersinia pestis PY-32]
+ gb|EIR91988.1| coagulase/fibrinolysin [Yersinia pestis PY-36]
+ gb|EIR93808.1| coagulase/fibrinolysin [Yersinia pestis PY-42]
+ gb|EIR94763.1| omptin family protein [Yersinia pestis PY-45]
+ gb|EIS07444.1| coagulase/fibrinolysin [Yersinia pestis PY-46]
+ gb|EIS08052.1| coagulase/fibrinolysin [Yersinia pestis PY-47]
+ gb|EIS09001.1| coagulase/fibrinolysin [Yersinia pestis PY-48]
+ gb|EIS21390.1| coagulase/fibrinolysin [Yersinia pestis PY-53]
+ gb|EIS31419.1| coagulase/fibrinolysin [Yersinia pestis PY-55]
+ gb|EIS31543.1| omptin family protein [Yersinia pestis PY-54]
+ gb|EIS34622.1| coagulase/fibrinolysin [Yersinia pestis PY-56]
+ gb|EIS46275.1| coagulase/fibrinolysin [Yersinia pestis PY-60]
+ gb|EIS46576.1| coagulase/fibrinolysin [Yersinia pestis PY-58]
+ gb|EIS47661.1| coagulase/fibrinolysin [Yersinia pestis PY-59]
+ gb|EIS58953.1| coagulase/fibrinolysin [Yersinia pestis PY-61]
+ gb|EIS59646.1| coagulase/fibrinolysin [Yersinia pestis PY-63]
+ gb|EIS65383.1| coagulase/fibrinolysin [Yersinia pestis PY-64]
+ gb|EIS69188.1| coagulase/fibrinolysin [Yersinia pestis PY-65]
+ gb|EIS79081.1| coagulase/fibrinolysin [Yersinia pestis PY-71]
+ gb|EIS81217.1| coagulase/fibrinolysin [Yersinia pestis PY-72]
+ gb|EIS89719.1| coagulase/fibrinolysin [Yersinia pestis PY-76]
+ gb|EIS94758.1| coagulase/fibrinolysin [Yersinia pestis PY-88]
+ gb|EIS99195.1| coagulase/fibrinolysin [Yersinia pestis PY-89]
+ gb|EIT01099.1| omptin family protein [Yersinia pestis PY-90]
+ gb|EIT06688.1| coagulase/fibrinolysin [Yersinia pestis PY-91]
+ gb|EIT17370.1| coagulase/fibrinolysin [Yersinia pestis PY-93]
+ gb|EIT18600.1| coagulase/fibrinolysin [Yersinia pestis PY-92]
+ gb|EIT19452.1| omptin family protein [Yersinia pestis PY-94]
+ gb|EIT29990.1| coagulase/fibrinolysin [Yersinia pestis PY-95]
+ gb|EIT33366.1| coagulase/fibrinolysin [Yersinia pestis PY-96]
+ gb|EIT34313.1| coagulase/fibrinolysin [Yersinia pestis PY-98]
+ gb|EIT42758.1| coagulase/fibrinolysin [Yersinia pestis PY-99]
+ gb|EIT48538.1| coagulase/fibrinolysin [Yersinia pestis PY-100]
+ gb|EIT48917.1| coagulase/fibrinolysin [Yersinia pestis PY-101]
+ gb|EIT58409.1| coagulase/fibrinolysin [Yersinia pestis PY-102]
+ gb|EIT61141.1| coagulase/fibrinolysin [Yersinia pestis PY-103]
+ gb|EIT64277.1| coagulase/fibrinolysin [Yersinia pestis PY-113]
+ gb|EKS46908.1| outer membrane protease [Yersinia pestis INS]
+ gb|ERP75731.1| outer membrane protease [Yersinia pestis S3]
+ gb|ERP76397.1| outer membrane protease [Yersinia pestis 24H]
+ gb|ERP77225.1| outer membrane protease [Yersinia pestis 113]
+ gb|ERP83541.1| outer membrane protease [Yersinia pestis 9]
+ gb|EXU71348.1| protease [Yersinia pestis EV NIIEG]
+ gb|KFB59698.1| protease [Yersinia pestis subsp. pestis]
+ gb|KGA54684.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJI90938.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJK07287.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ53019.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJI99747.1| coagulase/fibrinolysin [Yersinia pestis Pestoides F]
+ gb|AJJ16141.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ75901.1| coagulase/fibrinolysin [Yersinia pestis A1122]
+ gb|AJJ32586.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ80352.1| coagulase/fibrinolysin [Yersinia pestis Antiqua]
+ gb|AJJ84549.1| coagulase/fibrinolysin [Yersinia pestis Angola]
+ gb|AJJ86842.1| coagulase/fibrinolysin [Yersinia pestis CO92]
+ gb|AJJ40844.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ43763.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJK11986.1| coagulase/fibrinolysin [Yersinia pestis str. Pestoides B]
+ gb|AJK22772.1| coagulase/fibrinolysin [Yersinia pestis Pestoides G]
+ gb|AJK21904.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KJG87583.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KJG88568.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|AKB87792.1| coagulase/fibrinolysin [Yersinia pestis]
+ emb|CNI28095.1| outer membrane protease [Yersinia pseudotuberculosis]
+ emb|CNJ21985.1| outer membrane protease [Yersinia pseudotuberculosis]
+ gb|KKM50872.1| protease [Yersinia pestis subsp. pestis bv. Orientalis]
+ gb|KKM56518.1| protease (plasmid) [Yersinia pestis]
+ emb|CND55868.1| outer membrane protease [Yersinia pseudotuberculosis]
+ gb|KNC56565.1| coagulase/fibrinolysin [Yersinia pestis 14735]
+ gb|KNC59602.1| coagulase/fibrinolysin [Yersinia pestis 1670]
+ gb|AKS56859.1| coagulase/fibrinolysin [Yersinia pestis 1412]
+ gb|AKS63544.1| coagulase/fibrinolysin [Yersinia pestis 2944]
+ gb|AKS78297.1| coagulase/fibrinolysin [Yersinia pestis 1413]
+ gb|AKS80224.1| coagulase/fibrinolysin [Yersinia pestis 1522]
+ gb|AKS84188.1| coagulase/fibrinolysin [Yersinia pestis 790]
+ gb|AKS89475.1| coagulase/fibrinolysin [Yersinia pestis 8787]
+ gb|AKS95416.1| coagulase/fibrinolysin [Yersinia pestis 3770]
+ gb|AKS97885.1| coagulase/fibrinolysin [Yersinia pestis 3067]
+ gb|AKT03149.1| coagulase/fibrinolysin [Yersinia pestis 1045]
+ gb|KNX84292.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KNX87363.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KPD47149.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KPD47255.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD49206.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD57720.1| protease [Yersinia pestis subsp. microtus bv. Hissarica]
+ gb|KPD59975.1| protease [Yersinia pestis subsp. microtus bv. Xilingolensis]
+ gb|KPD61519.1| protease [Yersinia pestis subsp. microtus bv. Talassica]
+ gb|KPD66267.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD71167.1| protease [Yersinia pestis subsp. microtus bv. Altaica]
+ gb|KPD74166.1| protease [Yersinia pestis subsp. microtus bv. Talassica]
+ gb|KPD76306.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD81275.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD83547.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD92006.1| protease [Yersinia pestis subsp. microtus bv. Altaica]
+ gb|KPD93109.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD96756.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE02794.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KPE05242.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE08027.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE15884.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+Length=311
+
+ Score =   268 bits (686),  Expect = 6e-88, Method: Compositional matrix adjust.
+ Identities = 129/279 (46%), Positives = 185/279 (66%), Gaps = 4/279 (1%)
+
+Query  35   TVAASTGMLSGKSHEMLYDA-ETGRKISQLDWKIKNVAILKGDISWDPYSFLTLNARGWT  93
+            TV+ S G+L+ +S E +Y + E  +K+SQL+W+  N  I+K DI+WD    LTL A+GW+
+Sbjct  36   TVSTSLGLLNAESIESVYQSSEPNQKLSQLNWEANNTPIVKMDIAWDALPRLTLTAKGWS  95
+
+Query  94   SLASGSGNMDDYDWMNENQSEWTDHSSHPATNVNHANEYDLNVKGWLLQDENYKAGITAG  153
+            +L+SG G MD+YDW+   Q++W+D S H  TN+N+ANE D+N K W L+  NY+ G   G
+Sbjct  96   TLSSGQGVMDNYDWLTPQQTQWSDWSHHEKTNLNYANEIDINAKIWFLKQHNYRVGPILG  155
+
+Query  154  YQETRFSWTATGGSYSYNNGAYTGNFPKGVRVIGYNQRFSMPYIGLAGQYRINDFELNAL  213
+            YQE   SWTA GG+++YNNGA     P G+  +GY Q+F M YIGLAG YR    E NAL
+Sbjct  156  YQENNQSWTAYGGNFNYNNGANIFTAPDGIVGVGYKQKFDMLYIGLAGSYRYQQLEFNAL  215
+
+Query  214  FKFSDWVRAHDNDEHYMRDLTFREKTSGSRYYGTVINAGYYVTPNAKVFAEFTYSKYDEG  273
+             K+S+WV A+  D HY R ++F++ +  S YY  VI+ GYY T N K+F E  +++Y EG
+Sbjct  216  LKYSNWVNANAYDNHYNRKVSFKDSSKNSSYYSAVIDVGYYFTENTKLFVEAAWNQYSEG  275
+
+Query  274  KGGTQTIDKNSGDSVSIGGDAAGISNKNYTVTAGLQYRF  312
+            +G TQT++  +G+   +G   +GI  ++ T+T G QY+F
+Sbjct  276  RGETQTLNYATGN---VGSSKSGIEYQSQTLTVGFQYKF  311
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1158188024
+Results from round 2
+
+
+Query= COLY_YERPE_sequence
+
+Length=312
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+ref|WP_002208867.1|  MULTISPECIES: outer membrane protease              442   5e-156
+
+Sequences not found previously or not previously below threshold:
+
+
+
+>ref|WP_002208867.1| MULTISPECIES: outer membrane protease [Yersinia pseudotuberculosis 
+complex]
+ ref|YP_002346260.1| outer membrane protease [Yersinia pestis CO92]
+ gb|AAM86508.1|AE013897_4 outer membrane protein 3b (a), protease VII [Yersinia pestis 
+KIM10+]
+ gb|AAS61166.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Microtus str. 91001]
+ gb|ABG19075.1| outer membrane-associated protease [Yersinia pestis Nepal516]
+ gb|ABG12912.1| putative outer membrane-associated protease [Yersinia pestis 
+Antiqua]
+ emb|CAL19888.1| putative outer membrane-associated protease [Yersinia pestis 
+CO92]
+ gb|ABP40839.1| outer membrane-associated protease [Yersinia pestis Pestoides 
+F]
+ gb|EDM41232.1| putative outer membrane-associated protease [Yersinia pestis 
+CA88-4125]
+ gb|ABX86628.1| peptidase, A26 family [Yersinia pestis Angola]
+ gb|EDR34430.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+IP275]
+ gb|EDR40806.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+F1991016]
+ gb|EDR43629.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. E1979001]
+ gb|EDR51577.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. B42003004]
+ gb|EDR58232.1| peptidase, A26 family [Yersinia pestis biovar Orientalis str. 
+MG05-1020]
+ gb|EDR61532.1| peptidase, A26 family [Yersinia pestis biovar Antiqua str. UG05-0454]
+ gb|EDR66697.1| peptidase, A26 family [Yersinia pestis biovar Mediaevalis str. 
+K1973002]
+ gb|EEO75210.1| putative outer membrane-associated protease [Yersinia pestis 
+Nepal516]
+ gb|EEO81689.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Orientalis str. India 195]
+ gb|EEO87590.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Orientalis str. PEXU2]
+ gb|EEO91002.1| putative outer membrane-associated protease [Yersinia pestis 
+Pestoides A]
+ gb|ACY58002.1| putative outer membrane-associated protease [Yersinia pestis 
+D106004]
+ gb|ACY61739.1| putative outer membrane-associated protease [Yersinia pestis 
+D182038]
+ gb|EFA46425.1| outer membrane protease [Yersinia pestis KIM D27]
+ gb|ADE64042.1| putative outer membrane-associated protease [Yersinia pestis 
+Z176003]
+ gb|ADV99499.1| putative outer membrane-associated protease [Yersinia pestis 
+biovar Medievalis str. Harbin 35]
+ gb|AEL74621.1| outer membrane protease [Yersinia pestis A1122]
+ gb|EIQ91295.1| coagulase/fibrinolysin [Yersinia pestis PY-01]
+ gb|EIQ92368.1| coagulase/fibrinolysin [Yersinia pestis PY-02]
+ gb|EIQ93960.1| coagulase/fibrinolysin [Yersinia pestis PY-03]
+ gb|EIR05524.1| coagulase/fibrinolysin [Yersinia pestis PY-04]
+ gb|EIR06281.1| coagulase/fibrinolysin [Yersinia pestis PY-05]
+ gb|EIR09843.1| coagulase/fibrinolysin [Yersinia pestis PY-06]
+ gb|EIR20466.1| coagulase/fibrinolysin [Yersinia pestis PY-07]
+ gb|EIR21460.1| coagulase/fibrinolysin [Yersinia pestis PY-08]
+ gb|EIR23237.1| coagulase/fibrinolysin [Yersinia pestis PY-09]
+ gb|EIR35391.1| coagulase/fibrinolysin [Yersinia pestis PY-10]
+ gb|EIR36426.1| coagulase/fibrinolysin [Yersinia pestis PY-11]
+ gb|EIR36450.1| coagulase/fibrinolysin [Yersinia pestis PY-12]
+ gb|EIR49113.1| coagulase/fibrinolysin [Yersinia pestis PY-13]
+ gb|EIR50127.1| coagulase/fibrinolysin [Yersinia pestis PY-15]
+ gb|EIR52420.1| omptin family protein [Yersinia pestis PY-14]
+ gb|EIR63199.1| coagulase/fibrinolysin [Yersinia pestis PY-16]
+ gb|EIR64000.1| coagulase/fibrinolysin [Yersinia pestis PY-19]
+ gb|EIR67787.1| coagulase/fibrinolysin [Yersinia pestis PY-25]
+ gb|EIR77338.1| coagulase/fibrinolysin [Yersinia pestis PY-29]
+ gb|EIR79880.1| coagulase/fibrinolysin [Yersinia pestis PY-34]
+ gb|EIR80756.1| coagulase/fibrinolysin [Yersinia pestis PY-32]
+ gb|EIR91988.1| coagulase/fibrinolysin [Yersinia pestis PY-36]
+ gb|EIR93808.1| coagulase/fibrinolysin [Yersinia pestis PY-42]
+ gb|EIR94763.1| omptin family protein [Yersinia pestis PY-45]
+ gb|EIS07444.1| coagulase/fibrinolysin [Yersinia pestis PY-46]
+ gb|EIS08052.1| coagulase/fibrinolysin [Yersinia pestis PY-47]
+ gb|EIS09001.1| coagulase/fibrinolysin [Yersinia pestis PY-48]
+ gb|EIS21390.1| coagulase/fibrinolysin [Yersinia pestis PY-53]
+ gb|EIS31419.1| coagulase/fibrinolysin [Yersinia pestis PY-55]
+ gb|EIS31543.1| omptin family protein [Yersinia pestis PY-54]
+ gb|EIS34622.1| coagulase/fibrinolysin [Yersinia pestis PY-56]
+ gb|EIS46275.1| coagulase/fibrinolysin [Yersinia pestis PY-60]
+ gb|EIS46576.1| coagulase/fibrinolysin [Yersinia pestis PY-58]
+ gb|EIS47661.1| coagulase/fibrinolysin [Yersinia pestis PY-59]
+ gb|EIS58953.1| coagulase/fibrinolysin [Yersinia pestis PY-61]
+ gb|EIS59646.1| coagulase/fibrinolysin [Yersinia pestis PY-63]
+ gb|EIS65383.1| coagulase/fibrinolysin [Yersinia pestis PY-64]
+ gb|EIS69188.1| coagulase/fibrinolysin [Yersinia pestis PY-65]
+ gb|EIS79081.1| coagulase/fibrinolysin [Yersinia pestis PY-71]
+ gb|EIS81217.1| coagulase/fibrinolysin [Yersinia pestis PY-72]
+ gb|EIS89719.1| coagulase/fibrinolysin [Yersinia pestis PY-76]
+ gb|EIS94758.1| coagulase/fibrinolysin [Yersinia pestis PY-88]
+ gb|EIS99195.1| coagulase/fibrinolysin [Yersinia pestis PY-89]
+ gb|EIT01099.1| omptin family protein [Yersinia pestis PY-90]
+ gb|EIT06688.1| coagulase/fibrinolysin [Yersinia pestis PY-91]
+ gb|EIT17370.1| coagulase/fibrinolysin [Yersinia pestis PY-93]
+ gb|EIT18600.1| coagulase/fibrinolysin [Yersinia pestis PY-92]
+ gb|EIT19452.1| omptin family protein [Yersinia pestis PY-94]
+ gb|EIT29990.1| coagulase/fibrinolysin [Yersinia pestis PY-95]
+ gb|EIT33366.1| coagulase/fibrinolysin [Yersinia pestis PY-96]
+ gb|EIT34313.1| coagulase/fibrinolysin [Yersinia pestis PY-98]
+ gb|EIT42758.1| coagulase/fibrinolysin [Yersinia pestis PY-99]
+ gb|EIT48538.1| coagulase/fibrinolysin [Yersinia pestis PY-100]
+ gb|EIT48917.1| coagulase/fibrinolysin [Yersinia pestis PY-101]
+ gb|EIT58409.1| coagulase/fibrinolysin [Yersinia pestis PY-102]
+ gb|EIT61141.1| coagulase/fibrinolysin [Yersinia pestis PY-103]
+ gb|EIT64277.1| coagulase/fibrinolysin [Yersinia pestis PY-113]
+ gb|EKS46908.1| outer membrane protease [Yersinia pestis INS]
+ gb|ERP75731.1| outer membrane protease [Yersinia pestis S3]
+ gb|ERP76397.1| outer membrane protease [Yersinia pestis 24H]
+ gb|ERP77225.1| outer membrane protease [Yersinia pestis 113]
+ gb|ERP83541.1| outer membrane protease [Yersinia pestis 9]
+ gb|EXU71348.1| protease [Yersinia pestis EV NIIEG]
+ gb|KFB59698.1| protease [Yersinia pestis subsp. pestis]
+ gb|KGA54684.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJI90938.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJK07287.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ53019.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJI99747.1| coagulase/fibrinolysin [Yersinia pestis Pestoides F]
+ gb|AJJ16141.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ75901.1| coagulase/fibrinolysin [Yersinia pestis A1122]
+ gb|AJJ32586.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ80352.1| coagulase/fibrinolysin [Yersinia pestis Antiqua]
+ gb|AJJ84549.1| coagulase/fibrinolysin [Yersinia pestis Angola]
+ gb|AJJ86842.1| coagulase/fibrinolysin [Yersinia pestis CO92]
+ gb|AJJ40844.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJJ43763.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|AJK11986.1| coagulase/fibrinolysin [Yersinia pestis str. Pestoides B]
+ gb|AJK22772.1| coagulase/fibrinolysin [Yersinia pestis Pestoides G]
+ gb|AJK21904.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KJG87583.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KJG88568.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|AKB87792.1| coagulase/fibrinolysin [Yersinia pestis]
+ emb|CNI28095.1| outer membrane protease [Yersinia pseudotuberculosis]
+ emb|CNJ21985.1| outer membrane protease [Yersinia pseudotuberculosis]
+ gb|KKM50872.1| protease [Yersinia pestis subsp. pestis bv. Orientalis]
+ gb|KKM56518.1| protease (plasmid) [Yersinia pestis]
+ emb|CND55868.1| outer membrane protease [Yersinia pseudotuberculosis]
+ gb|KNC56565.1| coagulase/fibrinolysin [Yersinia pestis 14735]
+ gb|KNC59602.1| coagulase/fibrinolysin [Yersinia pestis 1670]
+ gb|AKS56859.1| coagulase/fibrinolysin [Yersinia pestis 1412]
+ gb|AKS63544.1| coagulase/fibrinolysin [Yersinia pestis 2944]
+ gb|AKS78297.1| coagulase/fibrinolysin [Yersinia pestis 1413]
+ gb|AKS80224.1| coagulase/fibrinolysin [Yersinia pestis 1522]
+ gb|AKS84188.1| coagulase/fibrinolysin [Yersinia pestis 790]
+ gb|AKS89475.1| coagulase/fibrinolysin [Yersinia pestis 8787]
+ gb|AKS95416.1| coagulase/fibrinolysin [Yersinia pestis 3770]
+ gb|AKS97885.1| coagulase/fibrinolysin [Yersinia pestis 3067]
+ gb|AKT03149.1| coagulase/fibrinolysin [Yersinia pestis 1045]
+ gb|KNX84292.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KNX87363.1| coagulase/fibrinolysin [Yersinia pestis]
+ gb|KPD47149.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KPD47255.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD49206.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD57720.1| protease [Yersinia pestis subsp. microtus bv. Hissarica]
+ gb|KPD59975.1| protease [Yersinia pestis subsp. microtus bv. Xilingolensis]
+ gb|KPD61519.1| protease [Yersinia pestis subsp. microtus bv. Talassica]
+ gb|KPD66267.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD71167.1| protease [Yersinia pestis subsp. microtus bv. Altaica]
+ gb|KPD74166.1| protease [Yersinia pestis subsp. microtus bv. Talassica]
+ gb|KPD76306.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD81275.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD83547.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD92006.1| protease [Yersinia pestis subsp. microtus bv. Altaica]
+ gb|KPD93109.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPD96756.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE02794.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+ gb|KPE05242.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE08027.1| protease [Yersinia pestis subsp. microtus bv. Caucasica]
+ gb|KPE15884.1| protease [Yersinia pestis subsp. microtus bv. Ulegeica]
+Length=311
+
+ Score =   442 bits (1137),  Expect = 5e-156, Method: Composition-based stats.
+ Identities = 129/279 (46%), Positives = 185/279 (66%), Gaps = 4/279 (1%)
+
+Query  35   TVAASTGMLSGKSHEMLYDA-ETGRKISQLDWKIKNVAILKGDISWDPYSFLTLNARGWT  93
+            TV+ S G+L+ +S E +Y + E  +K+SQL+W+  N  I+K DI+WD    LTL A+GW+
+Sbjct  36   TVSTSLGLLNAESIESVYQSSEPNQKLSQLNWEANNTPIVKMDIAWDALPRLTLTAKGWS  95
+
+Query  94   SLASGSGNMDDYDWMNENQSEWTDHSSHPATNVNHANEYDLNVKGWLLQDENYKAGITAG  153
+            +L+SG G MD+YDW+   Q++W+D S H  TN+N+ANE D+N K W L+  NY+ G   G
+Sbjct  96   TLSSGQGVMDNYDWLTPQQTQWSDWSHHEKTNLNYANEIDINAKIWFLKQHNYRVGPILG  155
+
+Query  154  YQETRFSWTATGGSYSYNNGAYTGNFPKGVRVIGYNQRFSMPYIGLAGQYRINDFELNAL  213
+            YQE   SWTA GG+++YNNGA     P G+  +GY Q+F M YIGLAG YR    E NAL
+Sbjct  156  YQENNQSWTAYGGNFNYNNGANIFTAPDGIVGVGYKQKFDMLYIGLAGSYRYQQLEFNAL  215
+
+Query  214  FKFSDWVRAHDNDEHYMRDLTFREKTSGSRYYGTVINAGYYVTPNAKVFAEFTYSKYDEG  273
+             K+S+WV A+  D HY R ++F++ +  S YY  VI+ GYY T N K+F E  +++Y EG
+Sbjct  216  LKYSNWVNANAYDNHYNRKVSFKDSSKNSSYYSAVIDVGYYFTENTKLFVEAAWNQYSEG  275
+
+Query  274  KGGTQTIDKNSGDSVSIGGDAAGISNKNYTVTAGLQYRF  312
+            +G TQT++  +G+   +G   +GI  ++ T+T G QY+F
+Sbjct  276  RGETQTLNYATGN---VGSSKSGIEYQSQTLTVGFQYKF  311
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.130    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0401    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1158188024
+
+Search has CONVERGED!
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Feb 8, 2016  1:43 AM
+  Number of letters in database: 7,604,542
+  Number of sequences in database:  23,866
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
