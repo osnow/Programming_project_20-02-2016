@@ -11,10 +11,12 @@ def read_seqs(filename):
     seqs = []
     structures = []
     count = 1
+    namecount = 1
     for seq_record in SeqIO.parse(filename, "fasta"):
-        f = open('protseq'+str(count)+'.txt', 'w')
-        if count%2 != 1:
-            f.write('>'+str(seq_record.id)+ '/n' + str(seq_record.seq)+'\n')
+        f = open('protseq'+str(namecount)+'.txt', 'w')
+        if count%2 != 0:
+            f.write('>'+str(seq_record.id)+ '\n' + str(seq_record.seq)+'\n')
+            namecount += 1
         f.close()
         count += 1
 
