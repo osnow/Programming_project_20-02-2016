@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import sys
 import math
+from StringIO import StringIO
 script_name = sys.argv[0]
 
 # Input files/directories
@@ -10,17 +11,17 @@ input_file2 = sys.argv[3:]
 output_file = sys.argv[2]
 matrices = []
 
-def makematrix(input_file2):
-    """converts psiblast PSSM into dataframe"""
-    for f in input_file2:
-        array = np.genfromtxt(input_file2, usecols=range(2,22), skip_header=3, skip_footer=5)
-        matrix = pd.DataFrame(array, columns=range(1,21))
-        matrices.append(matrix.applymap(sigmoid))
-makematrix(input_file2)
-
 def sigmoid(t):
     """converts scores to log odds"""
     return 1/(1+math.exp(-t))
+
+def makematrix(input):
+    """converts psiblast PSSM into dataframe"""
+    for f in input:
+        array = np.genfromtxt(f, usecols=range(2,22), skip_header=3, skip_footer=5)
+        matrix = pd.DataFrame(array, columns=range(1,21))
+        matrices.append(matrix.applymap(sigmoid))
+makematrix(input_file2)
 
 def read_seqs(filename):
     """Reads file and puts structures in list"""
@@ -35,7 +36,6 @@ def read_seqs(filename):
     for s in structures:
         targets(s)
     write_file(output_file)
-
 
 target_values = []
 def targets(s):
@@ -54,7 +54,8 @@ def write_file(output):
         for m in matrices:
             cols = m.columns.values.tolist()
             for index, row in m.iterrows():
-                f.write(target_values[tarcount]+' '+cols[1]+':'+row['1']+'\n')
+                values = [str(cols[i])+':'+str(row[i+1]) for i in range(0, 20)]
+                f.write(str(target_values[tarcount])+' '+' '.join(values)+'\n')
                 tarcount += 1
 
 read_seqs(input_file1)
