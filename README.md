@@ -7,3 +7,4 @@ Programming project at Scilife - SVM protein predictor
 
 26/02/2016 - Installed svm_light on my workstation and did a few different rounds of training and classifying and it all seemed to work relatively well. I got around 80% accuracy with the models I trained. I decided to try to start tackling the psi-blast part of the project and if that fails I can come back and optimise these models by trying different parameters etc. 
 
+29/02/2016 - Ran psiblast for each protein sequence and generated PSSM files for each. Working on making a program to reformat PSSMs and write to a file with target values for SVM_light input 
