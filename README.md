@@ -8,3 +8,7 @@ Programming project at Scilife - SVM protein predictor
 26/02/2016 - Installed svm_light on my workstation and did a few different rounds of training and classifying and it all seemed to work relatively well. I got around 80% accuracy with the models I trained. I decided to try to start tackling the psi-blast part of the project and if that fails I can come back and optimise these models by trying different parameters etc. 
 
 29/02/2016 - Ran psiblast for each protein sequence and generated PSSM files for each. Working on making a program to reformat PSSMs and write to a file with target values for SVM_light input 
+
+01/03/2016 - Created python program to extract the data from the PSSM files and turn them into a data frame which I can then apply the sigmoidal function to and write to a file in the format for svm. Also, I am rerunning psiblast as I had originally used blast+ on the non-redundant database and it produced incorrect matrix files and did make any files for some sequences. At least the output file is the same so my program will work for the new matrices whenever they finish running. 
+
+02/03/2016 - Flying to Canada to visit family and friends. Wrote project report outline and started writing report. Going to use latex because including figures and formulas is easier and looks pretty. 
