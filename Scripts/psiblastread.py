@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import sys
 import math
-from StringIO import StringIO
+
 script_name = sys.argv[0]
 
 # Input files/directories
@@ -41,7 +41,7 @@ target_values = []
 def targets(s):
     """Iterates through structures and assigns target value"""
     for res in s:
-        if res in "PL":
+        if res in "LP":
             target = "+1"
         else:
             target = "-1"
