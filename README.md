@@ -20,3 +20,7 @@ Programming project at Scilife - SVM protein predictor
 07/03/2016 - SVM with polynomial kernel and RBF kernel finally produces some positive results but still not that many. Sigmoidal kernel produces terrible accuracy on 2 test sets so I won't continue testing with that one as it also takes a long time. RBF seems to be the best but is only around 80% accurate and just slightly better than polynomial. 
 
 08/03/2016 - Figured out how to create a ROC curve from my svm output. Plotting all RBF test set results on one plot and all polynomial test set results on another to determine best kernel. 
+
+09/03/2016 - Made python scripts for getting confusion matrix and MCCs 
+
+13/03/2016-18/03/2016 - Doing some further optimizing and writing report 
